@@ -1,0 +1,18 @@
+{
+  "name": "iceInput",
+  "version": "0.1.0",
+  "description": "Inputs: pushbuttons and switches",
+  "keywords": "input, pushbutton, switch",
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Juan Gonzalez-Gomez (Obijuan)",
+    "email": "",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "master",
+    "url": "https://github.com/FPGAwars/iceInputs"
+  }
+}
