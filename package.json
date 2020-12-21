@@ -1,8 +1,8 @@
 {
-  "name": "iceInput",
+  "name": "iceinput",
   "version": "0.1.0",
   "description": "Inputs: pushbuttons and switches",
-  "keywords": "input, pushbutton, switch",
+  "keywords": ["input" , "pushbutton, switch"],
   "license": "GPL-2.0",
   "authors": [{
     "name": "Juan Gonzalez-Gomez (Obijuan)",
