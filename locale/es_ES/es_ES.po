@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "### Parámetro del pull-up:\n"
 "\n"
-"0: Sin pull-up\n"
+"0: Sin pull-up  \n"
 "1: Pull-up activado"
 
 #: translation.js:15
