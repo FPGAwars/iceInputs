@@ -25,9 +25,11 @@ Inputs: pushbuttons and switches.
 ## Examples
 * *pull-up*
   * 01-pull-up-x1
-  * *ice-build*
-    * *01-pull-up-x1*
 
+## Languages
+| Language | Translated strings |
+|:--------:|:------------------:|
+| es_ES | ![Progress](http://progressed.io/bar/15) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

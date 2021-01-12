@@ -45,8 +45,6 @@ gettext('Sync the input with the system clock domain');
 gettext('Pull-up');
 gettext('Pull-up2');
 gettext('pull-up');
-gettext('ice-build');
 gettext('01-pull-up-x1');
 gettext('## Example 1: Testing one pull-up  \n\nThe button state can be seen on the LED0  \n* Button not pressed: LED0 on  \n* Button pressed: LED0 off');
 gettext('The pull-up is active by default  \nIt can be disconnect seting the  \nparameter to 0');
-gettext('01-pull-up-x1');
