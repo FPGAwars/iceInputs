@@ -1,9 +1,9 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Pull-up",
-    "version": "1.0.0",
-    "description": "FPGA internal pull-up configuration on the connected input port",
+    "name": "Pull-upx1",
+    "version": "1.0.1",
+    "description": "FPGA internal pull-up configuration on the input port",
     "author": "Juan González",
     "image": "%3Csvg%20id=%22svg2%22%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-265%20401.5%2063.5%2038.4%22%3E%3Cstyle%3E.st0%7Bdisplay:none%7D.st1%7Bfill:none;stroke:#000;stroke-width:.75;stroke-linejoin:round;stroke-miterlimit:10%7D.st2%7Bfill:#010002%7D%3C/style%3E%3Cpath%20class=%22st0%22%20d=%22M-242.5%20411.8v11.8h-5.4v-11.8h5.4m1-1h-7.4v13.8h7.4v-13.8z%22/%3E%3Cpath%20d=%22M-212%20425.6l-15.4-8.7v8.5h-17.4v-2.7c0-.2-.1-.4-.3-.4l-2.3-1.2%205.6-2.9c.2-.1.3-.3.3-.5s-.1-.4-.3-.4l-5.7-2.7%202.4-1.6c.1-.1.2-.2.2-.4v-2.7h3.1l-3.5-6.1-3.5%206.1h3v2.5l-2.9%202c-.1.1-.2.3-.2.5s.1.3.3.4l5.6%202.6-5.6%202.9c-.2.1-.3.3-.3.4s.1.4.3.4l2.9%201.5V425.5H-265v1.2h37.6v8.5l15.4-8.7h10.5v-.8H-212zm-33.3-20.4l2.2%203.9h-4.5l2.3-3.9zm19.2%2027.7v-13.8l12.3%206.9-12.3%206.9z%22/%3E%3C/svg%3E"
   },
@@ -15,7 +15,9 @@
           "id": "bb4a1ca9-1b30-471e-92ca-ca7ff2fc1150",
           "type": "basic.input",
           "data": {
-            "name": ""
+            "name": "pin",
+            "virtual": false,
+            "clock": false
           },
           "position": {
             "x": 64,
@@ -76,6 +78,54 @@
           "size": {
             "width": 384,
             "height": 256
+          }
+        },
+        {
+          "id": "8055c1f2-dad2-4257-a271-c0bd64700cd7",
+          "type": "basic.info",
+          "data": {
+            "info": "### Pull-up parameter:\n\n0: No pull-up  \n1: Pull-up activated",
+            "readonly": true
+          },
+          "position": {
+            "x": 208,
+            "y": -96
+          },
+          "size": {
+            "width": 264,
+            "height": 104
+          }
+        },
+        {
+          "id": "5a96e53f-d2ff-4058-bbed-779876848487",
+          "type": "basic.info",
+          "data": {
+            "info": "Only an FPGA pin can  \nbe connected here!!!",
+            "readonly": true
+          },
+          "position": {
+            "x": 40,
+            "y": 144
+          },
+          "size": {
+            "width": 192,
+            "height": 56
+          }
+        },
+        {
+          "id": "26b0a2d0-aaa1-4204-9e57-2f2d674e03a0",
+          "type": "basic.info",
+          "data": {
+            "info": "The pull-up is connected  \nby default",
+            "readonly": true
+          },
+          "position": {
+            "x": 512,
+            "y": 0
+          },
+          "size": {
+            "width": 208,
+            "height": 56
           }
         }
       ],
