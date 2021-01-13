@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="105.30198mm"
+   width="117.93374mm"
    height="77.481155mm"
-   viewBox="0 0 105.30198 77.481155"
+   viewBox="0 0 117.93374 77.481155"
    version="1.1"
    id="svg224"
    inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
@@ -23,19 +23,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="7.3656874"
-     inkscape:cy="223.71244"
+     inkscape:zoom="0.7"
+     inkscape:cx="340.91691"
+     inkscape:cy="124.32178"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:window-width="1515"
-     inkscape:window-height="968"
-     inkscape:window-x="251"
-     inkscape:window-y="95"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="863"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,7 +56,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-50.343062,-87.117061)">
+     transform="translate(-37.711301,-87.117061)">
     <rect
        rx="4.5213194"
        ry="4.5213194"
@@ -104,6 +104,17 @@
        id="path16"
        d="m 101.04571,97.083045 v 7.702265"
        style="display:inline;opacity:1;fill:none;stroke:#777777;stroke-width:1.5875;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.04px;line-height:1.25;font-family:sans-serif;fill:#767675;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="36.617825"
+       y="130.52193"
+       id="text36"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         x="36.617825"
+         y="130.52193"
+         style="fill:#767675;fill-opacity:1;stroke-width:0.264583">pin</tspan></text>
   </g>
   <style
      id="style263">.st0{display:none}.st1{fill:none;stroke:#000;stroke-width:.75;stroke-linejoin:round;stroke-miterlimit:10}.st2{fill:#010002}</style>
