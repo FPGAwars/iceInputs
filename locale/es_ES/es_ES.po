@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-01-14 17:38+0100\n"
+"POT-Creation-Date: 2021-01-14 19:20+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -291,38 +291,14 @@ msgstr ""
 "el pull-up interno"
 
 #: translation.js:57
-msgid "02-pull-up-x2"
-msgstr ""
-
-#: translation.js:58
-msgid ""
-"## Example 2: Testing two pull-ups  \n"
-"\n"
-"The buttons state is shown on LED0 and LED1"
-msgstr ""
-"## Ejemplo 2: Probando dos pull-ups  \n"
-"\n"
-"El estado del botón se puede ver los LEDs 0 y 1"
-
-#: translation.js:59
-msgid ""
-"The pull-ups are active by default  \n"
-"They can be disconnect seting the  \n"
-"parameter to 0"
-msgstr ""
-"Los pull-ups están activados por defecto  \n"
-"Se puede desconectar poniendo  \n"
-"a cero el parámetro"
-
-#: translation.js:60
 msgid "03-pull-up-x1-error"
 msgstr ""
 
-#: translation.js:61
+#: translation.js:58
 msgid "Puerta NOT"
 msgstr ""
 
-#: translation.js:62
+#: translation.js:59
 msgid ""
 "## Example 3: Error in pull-up connection \n"
 "\n"
@@ -336,7 +312,7 @@ msgstr ""
 "entrada  \n"
 "Si se conecta a cualquier otro elemento digital se producirá un ERROR"
 
-#: translation.js:63
+#: translation.js:60
 msgid ""
 "ERROR: The NOT gate cannot be connected to the  \n"
 "pull-up input pin"
@@ -344,6 +320,46 @@ msgstr ""
 "ERROR: La puerta NOT NO se puede conectar a la  \n"
 "entrada pin del pull-up"
 
-#: translation.js:64
+#: translation.js:61
 msgid "## THIS CIRCUIT IS WRONG!"
 msgstr "## ¡ESTE CIRCUITO ES INCORRECTO!"
+
+#: translation.js:62
+msgid "04-pull-up-x1-two"
+msgstr ""
+
+#: translation.js:63
+msgid ""
+"## Example 4: Testing two pull-up blocks  \n"
+"\n"
+"Two buttons are connected to two LEDs, and their pull-ups  \n"
+"activated\n"
+msgstr ""
+"## Ejemplo 4: Probando dos bloques de pull-ups  \n"
+"\n"
+"Dos pulsadores están conectados a dos LEDs con sus  \n"
+"pull-ups activadas\n"
+
+#: translation.js:64
+msgid "05-pull-up-x2"
+msgstr ""
+
+#: translation.js:65
+msgid ""
+"## Example 2: Testing two pull-ups  \n"
+"\n"
+"The buttons state is shown on LED0 and LED1"
+msgstr ""
+"## Ejemplo 2: Probando dos pull-ups  \n"
+"\n"
+"El estado del botón se puede ver los LEDs 0 y 1"
+
+#: translation.js:66
+msgid ""
+"The pull-ups are active by default  \n"
+"They can be disconnect seting the  \n"
+"parameter to 0"
+msgstr ""
+"Los pull-ups están activados por defecto  \n"
+"Se puede desconectar poniendo  \n"
+"a cero el parámetro"
