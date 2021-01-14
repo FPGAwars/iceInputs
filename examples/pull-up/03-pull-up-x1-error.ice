@@ -66,7 +66,7 @@
           "id": "8d499690-3c9f-4620-b2a8-f8903b1788a0",
           "type": "basic.info",
           "data": {
-            "info": "## Ejemplo 3: Error en la conexión del PULL-UP \n\nLa entrada pin del bloque pull-up SOLO SE PUEDE CONECTAR a un loque de ENTRADA  \nSi se conecta a cualquier otro elemento digital se producirá un ERROR",
+            "info": "## Example 3: Error in pull-up connection \n\nThe input pin of the pull-up block CAN ONLY BE CONNECTED to an input BLOCK  \nIf it is connected to any other digital component an error will show up",
             "readonly": true
           },
           "position": {
@@ -82,15 +82,15 @@
           "id": "9b026241-ba5c-47eb-9d07-c142483a5523",
           "type": "basic.info",
           "data": {
-            "info": "ERROR: No se puede conectar un elemento  \ncomo el INVERSOR por la entrada pin",
+            "info": "ERROR: The NOT gate cannot be connected to the  \npull-up input pin",
             "readonly": true
           },
           "position": {
-            "x": -264,
+            "x": -240,
             "y": -144
           },
           "size": {
-            "width": 312,
+            "width": 376,
             "height": 56
           }
         },
@@ -110,7 +110,7 @@
           "id": "7bfd5e76-aef7-485a-8a94-f21e70b1ed0d",
           "type": "basic.info",
           "data": {
-            "info": "## ¡ESTE CIRCUITO ES INCORRECTO!",
+            "info": "## THIS CIRCUIT IS WRONG!",
             "readonly": true
           },
           "position": {
