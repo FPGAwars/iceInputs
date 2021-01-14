@@ -57,3 +57,8 @@ gettext('The SW1 and SW2 buttons on  \nthe Alhambra-II board have an external  \
 gettext('02-pull-up-x2');
 gettext('## Example 2: Testing two pull-ups  \n\nThe buttons state is shown on LED0 and LED1');
 gettext('The pull-ups are active by default  \nThey can be disconnect seting the  \nparameter to 0');
+gettext('03-pull-up-x1-error');
+gettext('Puerta NOT');
+gettext('## Example 3: Error in pull-up connection \n\nThe input pin of the pull-up block CAN ONLY BE CONNECTED to an input BLOCK  \nIf it is connected to any other digital component an error will show up');
+gettext('ERROR: The NOT gate cannot be connected to the  \npull-up input pin');
+gettext('## THIS CIRCUIT IS WRONG!');

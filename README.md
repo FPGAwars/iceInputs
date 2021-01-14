@@ -25,11 +25,12 @@ Inputs: pushbuttons and switches.
   * 01-pull-up-x1
   * 02-pull-up-x1-deactivation
   * 02-pull-up-x2
+  * 03-pull-up-x1-error
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/24) |
+| es_ES | ![Progress](http://progressed.io/bar/26) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

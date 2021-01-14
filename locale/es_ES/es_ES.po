@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-01-14 10:44+0100\n"
+"POT-Creation-Date: 2021-01-14 17:38+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -313,3 +313,37 @@ msgstr ""
 "Los pull-ups están activados por defecto  \n"
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
+
+#: translation.js:60
+msgid "03-pull-up-x1-error"
+msgstr ""
+
+#: translation.js:61
+msgid "Puerta NOT"
+msgstr ""
+
+#: translation.js:62
+msgid ""
+"## Example 3: Error in pull-up connection \n"
+"\n"
+"The input pin of the pull-up block CAN ONLY BE CONNECTED to an input "
+"BLOCK  \n"
+"If it is connected to any other digital component an error will show up"
+msgstr ""
+"##  Ejemplo 3: Error en la conexión del PULL-UP   \n"
+"\n"
+"La entrada pin del bloque pull-up SOLO SE PUEDE CONECTAR a un bloque de "
+"entrada  \n"
+"Si se conecta a cualquier otro elemento digital se producirá un ERROR"
+
+#: translation.js:63
+msgid ""
+"ERROR: The NOT gate cannot be connected to the  \n"
+"pull-up input pin"
+msgstr ""
+"ERROR: La puerta NOT NO se puede conectar a la  \n"
+"entrada pin del pull-up"
+
+#: translation.js:64
+msgid "## THIS CIRCUIT IS WRONG!"
+msgstr "## ¡ESTE CIRCUITO ES INCORRECTO!"
