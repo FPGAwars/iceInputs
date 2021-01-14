@@ -14,22 +14,22 @@ Inputs: pushbuttons and switches.
 ## Blocks
 * *Pull-up*
   * pull-up-x01
+  * pull-up-x02
 * *Utils*
   * Debouncer
   * Pos-neg-logic
   * Sync
-  * *ice-build*
-    * *Pull-up*
-    * *Pull-up2*
 
 ## Examples
 * *pull-up*
   * 01-pull-up-x1
+  * 02-pull-up-x1-deactivation
+  * 02-pull-up-x2
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/15) |
+| es_ES | ![Progress](http://progressed.io/bar/24) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
