@@ -15,7 +15,7 @@
           "id": "2ce99121-9453-441a-82c5-9ae821ae0b0e",
           "type": "basic.input",
           "data": {
-            "name": "Button",
+            "name": "Btn",
             "range": "[1:0]",
             "pins": [
               {
@@ -95,7 +95,7 @@
           "id": "8a9c0deb-31ee-4a2e-a4dc-9231d3ecda69",
           "type": "basic.info",
           "data": {
-            "info": "The pull-ups are active by default  \nThey can be disconnect seting the  \nparameter to 0",
+            "info": "The pull-ups are active by default  \nThey can be disconnected by  \nseting the parameter to 0",
             "readonly": true
           },
           "position": {
@@ -117,6 +117,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "91ceecb1-903d-4359-aaea-950997f6208a",
+          "type": "basic.info",
+          "data": {
+            "info": "Buttons",
+            "readonly": true
+          },
+          "position": {
+            "x": -784,
+            "y": -384
+          },
+          "size": {
+            "width": 80,
+            "height": 32
           }
         }
       ],

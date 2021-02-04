@@ -27,11 +27,13 @@ Inputs: pushbuttons and switches.
   * 03-pull-up-x1-error
   * 04-pull-up-x1-two
   * 05-pull-up-x2
+  * *ice-build*
+    * *05-pull-up-x2*
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/27) |
+| es_ES | ![Progress](http://progressed.io/bar/28) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

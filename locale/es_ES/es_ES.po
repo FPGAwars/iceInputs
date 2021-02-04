@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-01-14 19:20+0100\n"
+"POT-Creation-Date: 2021-02-04 13:31+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -222,10 +222,14 @@ msgid "pull-up"
 msgstr ""
 
 #: translation.js:50
-msgid "01-pull-up-x1"
+msgid "ice-build"
 msgstr ""
 
 #: translation.js:51
+msgid "01-pull-up-x1"
+msgstr "02-pull-up-x1-deactivation"
+
+#: translation.js:52
 msgid ""
 "## Example 1: Testing one pull-up  \n"
 "\n"
@@ -239,7 +243,7 @@ msgstr ""
 "* Boton no apretado: LED0 encendido  \n"
 "* Bottón apretado: LED0 apagado"
 
-#: translation.js:52
+#: translation.js:53
 msgid ""
 "The pull-up is active by default  \n"
 "It can be disconnect seting the  \n"
@@ -249,11 +253,11 @@ msgstr ""
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
 
-#: translation.js:53
-msgid "02-pull-up-x1-deactivation"
-msgstr ""
-
 #: translation.js:54
+msgid "02-pull-up-x1-deactivation"
+msgstr "02-pull-up-x1-deactivation"
+
+#: translation.js:55
 msgid ""
 "## Example 2: Enabling and disabling one pull-up  \n"
 "\n"
@@ -267,7 +271,7 @@ msgstr ""
 "interno  \n"
 "El estado del botón se muestra en el LED0\n"
 
-#: translation.js:55
+#: translation.js:56
 msgid ""
 "**ON parameter**:  \n"
 "* 0: pull-up disabled  \n"
@@ -278,7 +282,7 @@ msgstr ""
 "0: pull-up deshabilitado  \n"
 "1: Pull-up activado"
 
-#: translation.js:56
+#: translation.js:57
 msgid ""
 "The SW1 and SW2 buttons on  \n"
 "the Alhambra-II board have an external  \n"
@@ -290,15 +294,15 @@ msgstr ""
 "externo, por lo que se debe desactivar  \n"
 "el pull-up interno"
 
-#: translation.js:57
-msgid "03-pull-up-x1-error"
-msgstr ""
-
 #: translation.js:58
+msgid "03-pull-up-x1-error"
+msgstr "03-pull-up-x1-error"
+
+#: translation.js:59
 msgid "Puerta NOT"
 msgstr ""
 
-#: translation.js:59
+#: translation.js:60
 msgid ""
 "## Example 3: Error in pull-up connection \n"
 "\n"
@@ -312,7 +316,7 @@ msgstr ""
 "entrada  \n"
 "Si se conecta a cualquier otro elemento digital se producirá un ERROR"
 
-#: translation.js:60
+#: translation.js:61
 msgid ""
 "ERROR: The NOT gate cannot be connected to the  \n"
 "pull-up input pin"
@@ -320,15 +324,15 @@ msgstr ""
 "ERROR: La puerta NOT NO se puede conectar a la  \n"
 "entrada pin del pull-up"
 
-#: translation.js:61
+#: translation.js:62
 msgid "## THIS CIRCUIT IS WRONG!"
 msgstr "## ¡ESTE CIRCUITO ES INCORRECTO!"
 
-#: translation.js:62
-msgid "04-pull-up-x1-two"
-msgstr ""
-
 #: translation.js:63
+msgid "04-pull-up-x1-two"
+msgstr "04-pull-up-x1-two"
+
+#: translation.js:64
 msgid ""
 "## Example 4: Testing two pull-up blocks  \n"
 "\n"
@@ -340,11 +344,11 @@ msgstr ""
 "Dos pulsadores están conectados a dos LEDs con sus  \n"
 "pull-ups activadas\n"
 
-#: translation.js:64
+#: translation.js:65 translation.js:69
 msgid "05-pull-up-x2"
-msgstr ""
+msgstr "05-pull-up-x2"
 
-#: translation.js:65
+#: translation.js:66
 msgid ""
 "## Example 2: Testing two pull-ups  \n"
 "\n"
@@ -354,12 +358,21 @@ msgstr ""
 "\n"
 "El estado del botón se puede ver los LEDs 0 y 1"
 
-#: translation.js:66
+#: translation.js:67
+#, fuzzy
+#| msgid ""
+#| "The pull-ups are active by default  \n"
+#| "They can be disconnect seting the  \n"
+#| "parameter to 0"
 msgid ""
 "The pull-ups are active by default  \n"
-"They can be disconnect seting the  \n"
-"parameter to 0"
+"They can be disconnected by  \n"
+"seting the parameter to 0"
 msgstr ""
 "Los pull-ups están activados por defecto  \n"
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
+
+#: translation.js:68
+msgid "Buttons"
+msgstr "Pulsadores"

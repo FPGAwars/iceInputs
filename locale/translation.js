@@ -47,6 +47,7 @@ gettext('Valor genérico constante, de 1 bits. Su valor se introduce como parám
 gettext('Sync');
 gettext('Sync the input with the system clock domain');
 gettext('pull-up');
+gettext('ice-build');
 gettext('01-pull-up-x1');
 gettext('## Example 1: Testing one pull-up  \n\nThe button state can be seen on the LED0  \n* Button not pressed: LED0 on  \n* Button pressed: LED0 off');
 gettext('The pull-up is active by default  \nIt can be disconnect seting the  \nparameter to 0');
@@ -63,4 +64,6 @@ gettext('04-pull-up-x1-two');
 gettext('## Example 4: Testing two pull-up blocks  \n\nTwo buttons are connected to two LEDs, and their pull-ups  \nactivated\n');
 gettext('05-pull-up-x2');
 gettext('## Example 2: Testing two pull-ups  \n\nThe buttons state is shown on LED0 and LED1');
-gettext('The pull-ups are active by default  \nThey can be disconnect seting the  \nparameter to 0');
+gettext('The pull-ups are active by default  \nThey can be disconnected by  \nseting the parameter to 0');
+gettext('Buttons');
+gettext('05-pull-up-x2');
