@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-02-04 13:31+0100\n"
+"POT-Creation-Date: 2021-02-04 13:36+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -253,7 +253,7 @@ msgstr ""
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
 
-#: translation.js:54
+#: translation.js:54 translation.js:69
 msgid "02-pull-up-x1-deactivation"
 msgstr "02-pull-up-x1-deactivation"
 
@@ -294,7 +294,7 @@ msgstr ""
 "externo, por lo que se debe desactivar  \n"
 "el pull-up interno"
 
-#: translation.js:58
+#: translation.js:58 translation.js:70
 msgid "03-pull-up-x1-error"
 msgstr "03-pull-up-x1-error"
 
@@ -328,7 +328,7 @@ msgstr ""
 msgid "## THIS CIRCUIT IS WRONG!"
 msgstr "## ¡ESTE CIRCUITO ES INCORRECTO!"
 
-#: translation.js:63
+#: translation.js:63 translation.js:71
 msgid "04-pull-up-x1-two"
 msgstr "04-pull-up-x1-two"
 
@@ -344,26 +344,21 @@ msgstr ""
 "Dos pulsadores están conectados a dos LEDs con sus  \n"
 "pull-ups activadas\n"
 
-#: translation.js:65 translation.js:69
+#: translation.js:65 translation.js:72
 msgid "05-pull-up-x2"
 msgstr "05-pull-up-x2"
 
 #: translation.js:66
 msgid ""
-"## Example 2: Testing two pull-ups  \n"
+"## Example 5: Testing two pull-ups  \n"
 "\n"
 "The buttons state is shown on LED0 and LED1"
 msgstr ""
-"## Ejemplo 2: Probando dos pull-ups  \n"
+"## Ejemplo 5: Probando dos pull-ups  \n"
 "\n"
 "El estado del botón se puede ver los LEDs 0 y 1"
 
 #: translation.js:67
-#, fuzzy
-#| msgid ""
-#| "The pull-ups are active by default  \n"
-#| "They can be disconnect seting the  \n"
-#| "parameter to 0"
 msgid ""
 "The pull-ups are active by default  \n"
 "They can be disconnected by  \n"

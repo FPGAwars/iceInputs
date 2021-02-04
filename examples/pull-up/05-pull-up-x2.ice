@@ -79,7 +79,7 @@
           "id": "8d499690-3c9f-4620-b2a8-f8903b1788a0",
           "type": "basic.info",
           "data": {
-            "info": "## Example 2: Testing two pull-ups  \n\nThe buttons state is shown on LED0 and LED1",
+            "info": "## Example 5: Testing two pull-ups  \n\nThe buttons state is shown on LED0 and LED1",
             "readonly": true
           },
           "position": {
