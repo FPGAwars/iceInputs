@@ -76,7 +76,7 @@
           "id": "8d499690-3c9f-4620-b2a8-f8903b1788a0",
           "type": "basic.info",
           "data": {
-            "info": "## Example 3: Testing three pull-ups  \n\nThe buttons state is shown on LEDs 0,1 and 2",
+            "info": "## Example 6: Testing three pull-ups  \n\nThe buttons state is shown on LEDs 0,1 and 2",
             "readonly": true
           },
           "position": {

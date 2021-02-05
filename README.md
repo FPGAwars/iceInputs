@@ -15,6 +15,10 @@ Inputs: pushbuttons and switches.
 * *Pull-up*
   * pull-up-x01
   * pull-up-x02
+  * pull-up-x03
+  * *verilog*
+    * pull-up-x02-verilog
+    * pull-up-x03-verilog
 * *Utils*
   * Debouncer
   * Pos-neg-logic
@@ -27,16 +31,15 @@ Inputs: pushbuttons and switches.
   * 03-pull-up-x1-error
   * 04-pull-up-x1-two
   * 05-pull-up-x2
-  * *ice-build*
-    * *02-pull-up-x1-deactivation*
-    * *03-pull-up-x1-error*
-    * *04-pull-up-x1-two*
-    * *05-pull-up-x2*
+  * 06-pull-up-x3
+  * test
+  * test2
+  * test3
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/35) |
+| es_ES | ![Progress](http://progressed.io/bar/45) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

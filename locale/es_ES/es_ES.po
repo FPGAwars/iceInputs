@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-02-04 13:36+0100\n"
+"POT-Creation-Date: 2021-02-05 10:19+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -16,21 +16,25 @@ msgstr ""
 
 #: translation.js:10
 msgid "Pull-up"
-msgstr ""
+msgstr "Pull-up"
 
 #: translation.js:11
 msgid "Utils"
 msgstr ""
 
 #: translation.js:12
-msgid "pull-up-x01"
+msgid "verilog"
 msgstr ""
 
 #: translation.js:13
+msgid "pull-up-x01"
+msgstr "pull-up-x01"
+
+#: translation.js:14
 msgid "FPGA internal pull-up configuration on the input port"
 msgstr "Configuración  de pull-up interno de la FPGA en el pin de entrada"
 
-#: translation.js:14
+#: translation.js:15
 msgid ""
 "### Pull-up parameter:\n"
 "\n"
@@ -42,13 +46,13 @@ msgstr ""
 "0: Sin pull-up  \n"
 "1: Pull-up activado"
 
-#: translation.js:15
+#: translation.js:16
 msgid ""
 "Only an FPGA pin can  \n"
 "be connected here!!!"
 msgstr "¡¡¡Sólo se puede conectar a un pin de la FPGA!!!"
 
-#: translation.js:16
+#: translation.js:17
 msgid ""
 "The pull-up is connected  \n"
 "by default"
@@ -56,23 +60,23 @@ msgstr ""
 "El pull-up está conectado  \n"
 "por defecto"
 
-#: translation.js:17
-msgid "pull-up-x02"
-msgstr ""
-
 #: translation.js:18
+msgid "pull-up-x02"
+msgstr "pull-up-x02"
+
+#: translation.js:19
 msgid "2 FPGA internal pull-ups"
 msgstr ""
 
-#: translation.js:19
+#: translation.js:20
 msgid "Separador de bus de 2-bits en dos cables"
 msgstr ""
 
-#: translation.js:20
+#: translation.js:21
 msgid "Agregador de 2 cables en un bus de 2-bits"
 msgstr ""
 
-#: translation.js:21
+#: translation.js:22
 msgid ""
 "The pull-ups are connected  \n"
 "by default"
@@ -80,66 +84,98 @@ msgstr ""
 "Los pull-up están conectados  \n"
 "por defecto"
 
-#: translation.js:22
-msgid "Debouncer"
-msgstr ""
-
 #: translation.js:23
-msgid "Remove the rebound on a mechanical switch"
-msgstr ""
+msgid "pull-up-x03"
+msgstr "pull-up-x03"
 
 #: translation.js:24
-msgid "D Flip-flop (verilog implementation)"
+msgid "3 FPGA internal pull-ups"
 msgstr ""
 
 #: translation.js:25
-msgid "Puerta XOR"
+msgid "Separador de bus de 3-bits"
 msgstr ""
 
 #: translation.js:26
-msgid "1bit register (implemented in verilog)"
+msgid "Agregador de 3 cables en un bus de 3-bits"
 msgstr ""
 
 #: translation.js:27
-msgid "Contador módulo M, ascendente, de 16 bits, con reset "
-msgstr ""
+msgid "pull-up-x02-verilog"
+msgstr "pull-up-x02-verilog"
 
 #: translation.js:28
-msgid "Un bit constante a 1"
+msgid "2 FPGA internal pull-ups (Verilog implementation)"
 msgstr ""
 
 #: translation.js:29
+msgid "pull-up-x03-verilog"
+msgstr "pull-up-x03-verilog"
+
+#: translation.js:30
+msgid "3 FPGA internal pull-ups (Verilog implementation)"
+msgstr ""
+
+#: translation.js:31
+msgid "Debouncer"
+msgstr ""
+
+#: translation.js:32
+msgid "Remove the rebound on a mechanical switch"
+msgstr ""
+
+#: translation.js:33
+msgid "D Flip-flop (verilog implementation)"
+msgstr ""
+
+#: translation.js:34
+msgid "Puerta XOR"
+msgstr ""
+
+#: translation.js:35
+msgid "1bit register (implemented in verilog)"
+msgstr ""
+
+#: translation.js:36
+msgid "Contador módulo M, ascendente, de 16 bits, con reset "
+msgstr ""
+
+#: translation.js:37
+msgid "Un bit constante a 1"
+msgstr ""
+
+#: translation.js:38
 msgid ""
 "Previous input  \n"
 "value"
 msgstr ""
 
-#: translation.js:30
+#: translation.js:39
 msgid ""
 "Current input  \n"
 "value"
 msgstr ""
 
-#: translation.js:31
+#: translation.js:40
 msgid ""
 "There is a change  \n"
 "on the input"
 msgstr ""
 
-#: translation.js:32
+#: translation.js:41
 msgid ""
 "Whenever there is a change in  \n"
 "the input, the cuonter is started"
 msgstr ""
 
-#: translation.js:33
+#: translation.js:42
 msgid ""
 "If the counter reaches it maximum  \n"
 "value, the input is considered stable  \n"
 "and it is captured"
 msgstr ""
 
-#: translation.js:34
+#: translation.js:43
 msgid ""
 "### Time calculation\n"
 "\n"
@@ -149,7 +185,7 @@ msgid ""
 "use a counter with more bits (17, 18...)"
 msgstr ""
 
-#: translation.js:35
+#: translation.js:44
 msgid ""
 "## Debouncer  \n"
 "\n"
@@ -159,27 +195,27 @@ msgid ""
 "captured on the output flip-flop"
 msgstr ""
 
-#: translation.js:36
+#: translation.js:45
 msgid "Stable output"
 msgstr ""
 
-#: translation.js:37
+#: translation.js:46
 msgid "Parameter: Initial value"
 msgstr ""
 
-#: translation.js:38
+#: translation.js:47
 msgid "System clock"
 msgstr ""
 
-#: translation.js:39
+#: translation.js:48
 msgid "Input data"
 msgstr ""
 
-#: translation.js:40
+#: translation.js:49
 msgid "Output"
-msgstr ""
+msgstr "Salida"
 
-#: translation.js:41
+#: translation.js:50
 msgid ""
 "# D Flip-Flop  \n"
 "\n"
@@ -187,49 +223,45 @@ msgid ""
 "Its output is shown in the cycle n+1"
 msgstr ""
 
-#: translation.js:42
+#: translation.js:51
 msgid "Initial value"
 msgstr ""
 
-#: translation.js:43
+#: translation.js:52
 msgid "**Parámetro**: Módulo del contador"
 msgstr ""
 
-#: translation.js:44
+#: translation.js:53
 msgid "Pos-neg-logic"
 msgstr ""
 
-#: translation.js:45
+#: translation.js:54
 msgid "Select positive or negative logic for the input"
 msgstr ""
 
-#: translation.js:46
+#: translation.js:55
 msgid ""
 "Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
 "Por defecto vale 0"
 msgstr ""
 
-#: translation.js:47
+#: translation.js:56
 msgid "Sync"
 msgstr ""
 
-#: translation.js:48
+#: translation.js:57
 msgid "Sync the input with the system clock domain"
 msgstr ""
 
-#: translation.js:49
+#: translation.js:58
 msgid "pull-up"
-msgstr ""
+msgstr "pull-up"
 
-#: translation.js:50
-msgid "ice-build"
-msgstr ""
-
-#: translation.js:51
+#: translation.js:59
 msgid "01-pull-up-x1"
 msgstr "02-pull-up-x1-deactivation"
 
-#: translation.js:52
+#: translation.js:60
 msgid ""
 "## Example 1: Testing one pull-up  \n"
 "\n"
@@ -243,21 +275,21 @@ msgstr ""
 "* Boton no apretado: LED0 encendido  \n"
 "* Bottón apretado: LED0 apagado"
 
-#: translation.js:53
+#: translation.js:61
 msgid ""
 "The pull-up is active by default  \n"
-"It can be disconnect seting the  \n"
+"It can be disconnected by setting the  \n"
 "parameter to 0"
 msgstr ""
 "El pull-up está activo por defecto  \n"
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
 
-#: translation.js:54 translation.js:69
+#: translation.js:62
 msgid "02-pull-up-x1-deactivation"
 msgstr "02-pull-up-x1-deactivation"
 
-#: translation.js:55
+#: translation.js:63
 msgid ""
 "## Example 2: Enabling and disabling one pull-up  \n"
 "\n"
@@ -271,7 +303,7 @@ msgstr ""
 "interno  \n"
 "El estado del botón se muestra en el LED0\n"
 
-#: translation.js:56
+#: translation.js:64
 msgid ""
 "**ON parameter**:  \n"
 "* 0: pull-up disabled  \n"
@@ -282,7 +314,7 @@ msgstr ""
 "0: pull-up deshabilitado  \n"
 "1: Pull-up activado"
 
-#: translation.js:57
+#: translation.js:65
 msgid ""
 "The SW1 and SW2 buttons on  \n"
 "the Alhambra-II board have an external  \n"
@@ -294,15 +326,15 @@ msgstr ""
 "externo, por lo que se debe desactivar  \n"
 "el pull-up interno"
 
-#: translation.js:58 translation.js:70
+#: translation.js:66
 msgid "03-pull-up-x1-error"
 msgstr "03-pull-up-x1-error"
 
-#: translation.js:59
+#: translation.js:67
 msgid "Puerta NOT"
 msgstr ""
 
-#: translation.js:60
+#: translation.js:68
 msgid ""
 "## Example 3: Error in pull-up connection \n"
 "\n"
@@ -316,7 +348,7 @@ msgstr ""
 "entrada  \n"
 "Si se conecta a cualquier otro elemento digital se producirá un ERROR"
 
-#: translation.js:61
+#: translation.js:69
 msgid ""
 "ERROR: The NOT gate cannot be connected to the  \n"
 "pull-up input pin"
@@ -324,15 +356,15 @@ msgstr ""
 "ERROR: La puerta NOT NO se puede conectar a la  \n"
 "entrada pin del pull-up"
 
-#: translation.js:62
+#: translation.js:70
 msgid "## THIS CIRCUIT IS WRONG!"
 msgstr "## ¡ESTE CIRCUITO ES INCORRECTO!"
 
-#: translation.js:63 translation.js:71
+#: translation.js:71
 msgid "04-pull-up-x1-two"
 msgstr "04-pull-up-x1-two"
 
-#: translation.js:64
+#: translation.js:72
 msgid ""
 "## Example 4: Testing two pull-up blocks  \n"
 "\n"
@@ -344,11 +376,11 @@ msgstr ""
 "Dos pulsadores están conectados a dos LEDs con sus  \n"
 "pull-ups activadas\n"
 
-#: translation.js:65 translation.js:72
+#: translation.js:73
 msgid "05-pull-up-x2"
 msgstr "05-pull-up-x2"
 
-#: translation.js:66
+#: translation.js:74
 msgid ""
 "## Example 5: Testing two pull-ups  \n"
 "\n"
@@ -358,7 +390,7 @@ msgstr ""
 "\n"
 "El estado del botón se puede ver los LEDs 0 y 1"
 
-#: translation.js:67
+#: translation.js:75
 msgid ""
 "The pull-ups are active by default  \n"
 "They can be disconnected by  \n"
@@ -368,6 +400,46 @@ msgstr ""
 "Se puede desconectar poniendo  \n"
 "a cero el parámetro"
 
-#: translation.js:68
+#: translation.js:76
 msgid "Buttons"
 msgstr "Pulsadores"
+
+#: translation.js:77
+msgid "06-pull-up-x3"
+msgstr "06-pull-up-x3"
+
+#: translation.js:78
+msgid ""
+"## Example 6: Testing three pull-ups  \n"
+"\n"
+"The buttons state is shown on LEDs 0,1 and 2"
+msgstr ""
+"## Ejemplo 6: Probando tres pull-ups  \n"
+"\n"
+"El estado de los botones se puede ver en los LEDs 0, 1 y 2"
+
+#: translation.js:79
+msgid "LEDs"
+msgstr "LEDs"
+
+#: translation.js:80
+msgid "test"
+msgstr ""
+
+#: translation.js:81
+msgid ""
+"## Example 3: Testing three pull-ups  \n"
+"\n"
+"The buttons state is shown on LEDs 0,1 and 2"
+msgstr ""
+"## Ejemplo 3: Probando tres pull-ups  \n"
+"\n"
+"El estado de los botones se puede ver en los LEDs 0, 1 y 2"
+
+#: translation.js:82
+msgid "test2"
+msgstr ""
+
+#: translation.js:83
+msgid "test3"
+msgstr ""
