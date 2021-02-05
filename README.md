@@ -16,9 +16,11 @@ Inputs: pushbuttons and switches.
   * pull-up-x01
   * pull-up-x02
   * pull-up-x03
+  * pull-up-x04
   * *verilog*
     * pull-up-x02-verilog
     * pull-up-x03-verilog
+    * pull-up-x04-verilog
 * *Utils*
   * Debouncer
   * Pos-neg-logic
@@ -32,9 +34,7 @@ Inputs: pushbuttons and switches.
   * 04-pull-up-x1-two
   * 05-pull-up-x2
   * 06-pull-up-x3
-  * test
-  * test2
-  * test3
+  * 07-pull-up-x4
 
 ## Languages
 | Language | Translated strings |
