@@ -27,8 +27,8 @@
             "clock": false
           },
           "position": {
-            "x": -272,
-            "y": -224
+            "x": -384,
+            "y": -216
           }
         },
         {
@@ -46,16 +46,16 @@
             "virtual": false
           },
           "position": {
-            "x": 40,
-            "y": -224
+            "x": -80,
+            "y": -216
           }
         },
         {
           "id": "5269dec0-63d7-4cc1-9629-a54e9655e4cf",
           "type": "67ab37af10a152aa76355ba4eeb65f68b4c7eb08",
           "position": {
-            "x": -128,
-            "y": -224
+            "x": -240,
+            "y": -216
           },
           "size": {
             "width": 96,
@@ -82,15 +82,15 @@
           "id": "8a9c0deb-31ee-4a2e-a4dc-9231d3ecda69",
           "type": "basic.info",
           "data": {
-            "info": "The pull-up is active by default  \nIt can be disconnect seting the  \nparameter to 0",
+            "info": "The pull-up is active by default  \nIt can be disconnected by setting the  \nparameter to 0",
             "readonly": true
           },
           "position": {
-            "x": -88,
-            "y": -328
+            "x": -112,
+            "y": -312
           },
           "size": {
-            "width": 264,
+            "width": 296,
             "height": 88
           }
         }
@@ -139,8 +139,8 @@
                 "clock": false
               },
               "position": {
-                "x": 64,
-                "y": 200
+                "x": 72,
+                "y": 256
               }
             },
             {
@@ -150,8 +150,8 @@
                 "name": ""
               },
               "position": {
-                "x": 760,
-                "y": 200
+                "x": 704,
+                "y": 256
               }
             },
             {
@@ -163,7 +163,7 @@
                 "local": false
               },
               "position": {
-                "x": 400,
+                "x": 408,
                 "y": -8
               }
             },
@@ -171,7 +171,7 @@
               "id": "2b245a71-2d80-466b-955f-e3d61839fe25",
               "type": "basic.code",
               "data": {
-                "code": "// Pull up\n\nwire din, dout, outen;\n\nassign o = din;\n\nSB_IO #(\n    .PIN_TYPE(6'b 1010_01),\n    .PULLUP(ON)\n) io_pin (\n    .PACKAGE_PIN(i),\n    .OUTPUT_ENABLE(outen),\n    .D_OUT_0(dout),\n    .D_IN_0(din)\n);",
+                "code": "// 1-Pull up\n\nSB_IO\n  #(\n    .PIN_TYPE(6'b 1010_01),\n    \n    //-- The pull-up is activated or not\n    //-- depeding on the ON parameter\n    .PULLUP(ON)\n    \n  ) input_pin (\n\n    //--- Input pin\n    .PACKAGE_PIN(i),\n    \n    //-- Block output\n    .D_IN_0(o),\n    \n    //-- Configured as input\n    .OUTPUT_ENABLE(1'b0),\n    \n    //-- Not used\n    .D_OUT_0(1'b0)\n  );",
                 "params": [
                   {
                     "name": "ON"
@@ -195,8 +195,8 @@
                 "y": 104
               },
               "size": {
-                "width": 384,
-                "height": 256
+                "width": 392,
+                "height": 368
               }
             },
             {
@@ -207,8 +207,8 @@
                 "readonly": true
               },
               "position": {
-                "x": 208,
-                "y": -96
+                "x": 144,
+                "y": -48
               },
               "size": {
                 "width": 264,
@@ -223,8 +223,8 @@
                 "readonly": true
               },
               "position": {
-                "x": 40,
-                "y": 144
+                "x": 56,
+                "y": 200
               },
               "size": {
                 "width": 192,
