@@ -54,7 +54,7 @@
           "id": "8d499690-3c9f-4620-b2a8-f8903b1788a0",
           "type": "basic.info",
           "data": {
-            "info": "## Example 1: Testing the sync-x1 block  \n\nThe button state can be seen on LED0  \n* Button not pressed: LED0 on  \n* Button pressed: LED0 off",
+            "info": "## Example 1: Testing the sync-x1 block  \n\nThe button state is shown on LED0  \n* Button not pressed: LED0 on  \n* Button pressed: LED0 off",
             "readonly": true
           },
           "position": {
