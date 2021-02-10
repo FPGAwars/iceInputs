@@ -17,16 +17,34 @@ Inputs: pushbuttons and switches.
   * pull-up-x02
   * pull-up-x03
   * pull-up-x04
+  * pull-up-x08
   * *verilog*
     * pull-up-x02-verilog
     * pull-up-x03-verilog
     * pull-up-x04-verilog
+    * pull-up-x08-verilog
+* *Sync*
+  * Sync-x01
+  * Sync-x02
+  * Sync-x03
+  * Sync-x04
+  * Sync-x08
+  * *Verilog*
+    * Sync-x01-verilog
+    * Sync-x02-verilog
+    * Sync-x03-verilog
+    * Sync-x04-verilog
+    * Sync-x08-verilog
 * *Utils*
   * Debouncer
   * Pos-neg-logic
   * Sync
 
 ## Examples
+* *TESTs*
+  * *Sync-x1*
+    * *Alhambra-II*
+      * 01-icerok-delay-measurement
 * *pull-up*
   * 01-pull-up-x1
   * 02-pull-up-x1-deactivation
@@ -35,11 +53,18 @@ Inputs: pushbuttons and switches.
   * 05-pull-up-x2
   * 06-pull-up-x3
   * 07-pull-up-x4
+  * 08-pull-up-x8
+* *sync*
+  * 01-sync-x1
+  * 02-sync-x2
+  * 03-sync-x3
+  * 04-sync-x4
+  * 05-sync-x8
 
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/45) |
+| es_ES | ![Progress](http://progressed.io/bar/47) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
