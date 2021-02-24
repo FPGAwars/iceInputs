@@ -155,7 +155,7 @@ gettext('Trigger condition: pulse in d');
 gettext('2 channel adaptor');
 gettext('Icerok probe');
 gettext('Data being measured:  \n* Channel 1: Output (q)\n* Channel 0: Input (d)');
-gettext('# Syncp: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Sync Block input (d). Also, the  \nlogic analyzer is triggered  \n\nThe same pulse should be seen on the q output, but  \ntwoe cycles later');
+gettext('# Sync: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Sync Block input (d). Also, the  \nlogic analyzer is triggered  \n\nThe same pulse should be seen on the q output, but  \ntwoe cycles later');
 gettext('**Pulsador-tic**');
 gettext('## Icerok-probe machine\n\nMachine for capturing data, storing it in the memory and transmit  \nto the computer by serial port');
 gettext('Writing the data to the memory on  \nevery system clock cycle');

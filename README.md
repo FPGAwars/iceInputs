@@ -70,7 +70,7 @@ Inputs: pushbuttons and switches.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/41) |
+| es_ES | ![Progress](http://progressed.io/bar/42) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

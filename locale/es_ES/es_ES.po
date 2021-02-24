@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-02-24 18:50+0100\n"
+"POT-Creation-Date: 2021-02-24 19:25+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -679,6 +679,8 @@ msgid ""
 "Input data (1 bit)  \n"
 "Cycle n"
 msgstr ""
+"Dato de entrada (1 bit)  \n"
+"Ciclo n"
 
 #: translation.js:151
 msgid ""
@@ -695,6 +697,10 @@ msgid ""
 "1-period pulse generated manually  \n"
 "(by pressing the button)"
 msgstr ""
+"## Dato de entrada\n"
+"\n"
+"Pulso de 1 periodo (tic) generado manualmente  \n"
+"(al apretar del botón)"
 
 #: translation.js:153
 msgid "## Logic analyzer"
@@ -702,7 +708,7 @@ msgstr "## Analizador lógico"
 
 #: translation.js:154
 msgid "Trigger condition: pulse in d"
-msgstr ""
+msgstr "Condición de disparo: pulso en d"
 
 #: translation.js:155
 msgid "2 channel adaptor"
@@ -724,7 +730,7 @@ msgstr ""
 
 #: translation.js:158
 msgid ""
-"# Syncp: Manual testing with Logic Analyzer\n"
+"# Sync: Manual testing with Logic Analyzer\n"
 "\n"
 "When the button sw1 is pressed, a 1-period pulse  \n"
 "is written to the Sync Block input (d). Also, the  \n"
@@ -733,6 +739,14 @@ msgid ""
 "The same pulse should be seen on the q output, but  \n"
 "twoe cycles later"
 msgstr ""
+"# Sync: Prueba manual con el analizador lógico\n"
+"\n"
+"Cuando se aprieta el botón SW1, un pulso de 1 periodo  \n"
+"(tic) se introduce por la entrada del bloque Sync (d).   \n"
+"Además se activa el Analizador lógico\n"
+"\n"
+"El mismo pulso se debe ver en la salida q, pero dos  \n"
+"ciclos después"
 
 #: translation.js:159
 msgid "**Pulsador-tic**"
@@ -1187,11 +1201,11 @@ msgstr ""
 
 #: translation.js:231
 msgid "Not gate disabled"
-msgstr ""
+msgstr "Puerta Not deshabilitada"
 
 #: translation.js:232
 msgid "Internal pull-up disabled"
-msgstr ""
+msgstr "Pull-up interno deshabilitado"
 
 #: translation.js:233
 msgid ""
