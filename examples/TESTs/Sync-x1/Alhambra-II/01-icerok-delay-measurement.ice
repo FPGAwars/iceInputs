@@ -377,7 +377,7 @@
           "id": "69cf9515-ea75-497a-8ec7-ea69855c4cec",
           "type": "basic.info",
           "data": {
-            "info": "# Syncp: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Sync Block input (d). Also, the  \nlogic analyzer is triggered  \n\nThe same pulse should be seen on the q output, but  \ntwoe cycles later",
+            "info": "# Sync: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Sync Block input (d). Also, the  \nlogic analyzer is triggered  \n\nThe same pulse should be seen on the q output, but  \ntwoe cycles later",
             "readonly": true
           },
           "position": {
