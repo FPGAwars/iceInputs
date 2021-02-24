@@ -249,7 +249,7 @@
           "id": "5b33485c-0ced-4b39-b551-9a60b63c168e",
           "type": "basic.info",
           "data": {
-            "info": "Output data (1 bit)  \nCycle n+1",
+            "info": "Output data (1 bit)  \nCycle n+2",
             "readonly": true
           },
           "position": {
@@ -265,7 +265,7 @@
           "id": "d73923d8-94ae-4021-ab15-193e9ed5f3d7",
           "type": "basic.info",
           "data": {
-            "info": "D Flip-flop",
+            "info": "Sync",
             "readonly": true
           },
           "position": {
@@ -273,8 +273,8 @@
             "y": 488
           },
           "size": {
-            "width": 128,
-            "height": 32
+            "width": 88,
+            "height": 40
           }
         },
         {
@@ -377,12 +377,12 @@
           "id": "69cf9515-ea75-497a-8ec7-ea69855c4cec",
           "type": "basic.info",
           "data": {
-            "info": "# D Flip-Flop: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Flip-flop input (d). Also, the  \nlogic analyzer is trigger  \n\nThe same pulse should be seen on the q output, but  \none cycle later",
+            "info": "# Syncp: Manual testing with Logic Analyzer\n\nWhen the button sw1 is pressed, a 1-period pulse  \nis written to the Sync Block input (d). Also, the  \nlogic analyzer is triggered  \n\nThe same pulse should be seen on the q output, but  \ntwoe cycles later",
             "readonly": true
           },
           "position": {
             "x": 704,
-            "y": -32
+            "y": -56
           },
           "size": {
             "width": 720,
