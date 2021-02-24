@@ -12,6 +12,10 @@ Inputs: pushbuttons and switches.
 * Load the collection: *Select > Collection*
 
 ## Blocks
+* *Not-wire*
+  * Not-wire-x01
+  * *Verilog*
+    * Not-wire-x01-verilog
 * *Pull-up*
   * pull-up-x01
   * pull-up-x02
@@ -38,13 +42,15 @@ Inputs: pushbuttons and switches.
 * *Utils*
   * Debouncer
   * Pos-neg-logic
-  * Sync
 
 ## Examples
 * *TESTs*
   * *Sync-x1*
     * *Alhambra-II*
       * 01-icerok-delay-measurement
+* *not-wire*
+  * 01-not-wire-x1
+  * 02-not-wire-x1-pull-down
 * *pull-up*
   * 01-pull-up-x1
   * 02-pull-up-x1-deactivation
@@ -64,7 +70,7 @@ Inputs: pushbuttons and switches.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/31) |
+| es_ES | ![Progress](http://progressed.io/bar/41) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
