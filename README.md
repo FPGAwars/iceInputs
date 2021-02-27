@@ -14,8 +14,16 @@ Inputs: pushbuttons and switches.
 ## Blocks
 * *Not-wire*
   * Not-wire-x01
+  * Not-wire-x02
+  * Not-wire-x03
+  * Not-wire-x04
+  * Not-wire-x08
   * *Verilog*
     * Not-wire-x01-verilog
+    * Not-wire-x02-verilog
+    * Not-wire-x03-verilog
+    * Not-wire-x04-verilog
+    * Not-wire-x08-verilog
 * *Pull-up*
   * pull-up-x01
   * pull-up-x02
@@ -41,7 +49,6 @@ Inputs: pushbuttons and switches.
     * Sync-x08-verilog
 * *Utils*
   * Debouncer
-  * Pos-neg-logic
 
 ## Examples
 * *TESTs*
@@ -51,6 +58,7 @@ Inputs: pushbuttons and switches.
 * *not-wire*
   * 01-not-wire-x1
   * 02-not-wire-x1-pull-down
+  * 03-not-wire-x8-switches
 * *pull-up*
   * 01-pull-up-x1
   * 02-pull-up-x1-deactivation
@@ -70,7 +78,7 @@ Inputs: pushbuttons and switches.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](http://progressed.io/bar/42) |
+| es_ES | ![Progress](https://progress-bar.dev/43/) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
