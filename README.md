@@ -12,6 +12,10 @@ Inputs: pushbuttons and switches.
 * Load the collection: *Select > Collection*
 
 ## Blocks
+* *Debouncer*
+  * Debouncer-x01
+  * *ice-build*
+    * *14-debouncer-counter-2*
 * *Not-wire*
   * Not-wire-x01
   * Not-wire-x02
@@ -47,14 +51,14 @@ Inputs: pushbuttons and switches.
     * Sync-x03-verilog
     * Sync-x04-verilog
     * Sync-x08-verilog
-* *Utils*
-  * Debouncer
 
 ## Examples
 * *TESTs*
   * *Sync-x1*
     * *Alhambra-II*
       * 01-icerok-delay-measurement
+* *debouncer*
+  * 01-bouncing-test
 * *not-wire*
   * 01-not-wire-x1
   * 02-not-wire-x1-pull-down
@@ -78,7 +82,7 @@ Inputs: pushbuttons and switches.
 ## Languages
 | Language | Translated strings |
 |:--------:|:------------------:|
-| es_ES | ![Progress](https://progress-bar.dev/43/) |
+| es_ES | ![Progress](http://progressed.io/bar/50) |
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)

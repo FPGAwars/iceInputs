@@ -283,7 +283,7 @@
           "id": "cabf3c3d-a707-4e06-be9a-4a66817c7a26",
           "type": "basic.info",
           "data": {
-            "info": "Whenever there is a change in  \nthe input, the cuonter is started",
+            "info": "Whenever there is a change in  \nthe input, the counter is started",
             "readonly": true
           },
           "position": {
