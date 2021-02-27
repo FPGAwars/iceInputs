@@ -1,7 +1,7 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Debouncer",
+    "name": "Debouncer-x01",
     "version": "1.0.0",
     "description": "Remove the rebound on a mechanical switch",
     "author": "Juan González",
@@ -59,15 +59,7 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "out",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true
+            "name": "out"
           },
           "position": {
             "x": 816,
@@ -112,14 +104,6 @@
           "data": {
             "blockColor": "yellow",
             "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -133,14 +117,6 @@
           "data": {
             "blockColor": "yellow",
             "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -175,14 +151,6 @@
           "data": {
             "blockColor": "fuchsia",
             "name": "in",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -196,14 +164,6 @@
           "data": {
             "blockColor": "yellow",
             "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
@@ -371,12 +331,12 @@
           "id": "f998abd9-dfc8-42d4-8816-c89f07a61e6f",
           "type": "basic.info",
           "data": {
-            "info": "## Debouncer  \n\nA value is considered stable when  \nthere is no changes during 5.5ms  \naprox. If the value is stable is its  \ncaptured on the output flip-flop",
+            "info": "## Debouncer  \n\nA value is considered stable when  \nthere is no changes during 5.5ms  \naprox. When a value is stable it is  \ncaptured on the output flip-flop",
             "readonly": true
           },
           "position": {
-            "x": 40,
-            "y": -656
+            "x": -8,
+            "y": -648
           },
           "size": {
             "width": 312,
@@ -396,6 +356,22 @@
           },
           "size": {
             "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "656df089-b248-432e-b6b5-ecd4bb5cc8eb",
+          "type": "basic.info",
+          "data": {
+            "info": "Counter",
+            "readonly": true
+          },
+          "position": {
+            "x": 536,
+            "y": -232
+          },
+          "size": {
+            "width": 96,
             "height": 40
           }
         }
