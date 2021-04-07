@@ -5,6 +5,8 @@
 
 Inputs: pushbuttons and switches.
 
+![](wiki/iceInput-logo.png)
+
 ## Install
 
 * Download the collection: [stable](https://github.com/FPGAwars/iceInputs/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceInputs/archive/master.zip)
