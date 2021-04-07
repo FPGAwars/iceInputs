@@ -16,8 +16,6 @@ Inputs: pushbuttons and switches.
 ## Blocks
 * *Debouncer*
   * Debouncer-x01
-  * *ice-build*
-    * *14-debouncer-counter-2*
 * *Not-wire*
   * Not-wire-x01
   * Not-wire-x02
