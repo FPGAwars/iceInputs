@@ -9,7 +9,7 @@ Inputs: pushbuttons and switches.
 
 ## Install
 
-* Download the collection: [stable](https://github.com/FPGAwars/iceInputs/archive/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceInputs/archive/master.zip)
+* Download the collection: [stable](https://github.com/FPGAwars/iceInputs/archive/refs/tags/v0.1.0.zip) or [development](https://github.com/FPGAwars/iceInputs/archive/refs/heads/main.zip)
 * Install the collection: *Tools > Collections > Add*
 * Load the collection: *Select > Collection*
 
