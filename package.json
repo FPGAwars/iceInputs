@@ -1,6 +1,6 @@
 {
   "name": "iceinput",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Inputs: pushbuttons and switches",
   "keywords": ["input" , "pushbutton, switch"],
   "license": "GPL-2.0",
