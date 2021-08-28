@@ -1160,11 +1160,11 @@
           }
         },
         {
-          "id": "a43d5599-2dfa-45b4-81da-1ada4e3829cd",
-          "type": "ac63dc81986762fef955e969873ae9b909aa6dae",
+          "id": "ac21b2a9-130c-4b01-a17e-76976846de1f",
+          "type": "00bde91bf874053be63836c54e799930ef786c12",
           "position": {
-            "x": 2024,
-            "y": -520
+            "x": 160,
+            "y": -496
           },
           "size": {
             "width": 96,
@@ -1172,11 +1172,11 @@
           }
         },
         {
-          "id": "ac21b2a9-130c-4b01-a17e-76976846de1f",
-          "type": "00bde91bf874053be63836c54e799930ef786c12",
+          "id": "f1e3a68f-d4a4-4244-8716-66eaac58b05f",
+          "type": "f718a5d8b0501d5cbb96b48c918db07a415187be",
           "position": {
-            "x": 160,
-            "y": -496
+            "x": 2024,
+            "y": -520
           },
           "size": {
             "width": 96,
@@ -26541,6 +26541,699 @@
                 "port": "in"
               },
               "size": 8
+            }
+          ]
+        }
+      }
+    },
+    "f718a5d8b0501d5cbb96b48c918db07a415187be": {
+      "package": {
+        "name": "Debouncer-x01",
+        "version": "1.2.0",
+        "description": "Remove the rebound on a mechanical switch",
+        "author": "Juan González",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%22-252%20400.9%2090%2040%22%3E%3Cpath%20d=%22M-251.547%20436.672h22.802v-30.353h5.862v30.353h5.259v-30.353h3.447v30.353h2.984v-30.353h3.506v30.523h6.406V405.77h38.868%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%221.4%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M-232.57%20403.877l26.946%2032.391M-205.624%20403.877l-26.946%2032.391%22%20fill=%22none%22%20stroke=%22red%22%20stroke-width=%223%22%20stroke-linecap=%22round%22/%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": -376,
+                "y": -656
+              }
+            },
+            {
+              "id": "a0474543-ff59-4f6f-8d2e-3993d79c13de",
+              "type": "basic.inputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk",
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "",
+                    "value": ""
+                  }
+                ],
+                "virtual": true
+              },
+              "position": {
+                "x": -224,
+                "y": -656
+              }
+            },
+            {
+              "id": "22ff3fa1-943b-4d1a-bd89-36e1c054d077",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 952,
+                "y": -600
+              }
+            },
+            {
+              "id": "20d06e62-fd81-4956-b93c-ade0e616fb98",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "fuchsia",
+                "name": "out"
+              },
+              "position": {
+                "x": 816,
+                "y": -600
+              }
+            },
+            {
+              "id": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": -376,
+                "y": -584
+              }
+            },
+            {
+              "id": "b0e427bd-ce26-43b5-9d61-685f1c1ab922",
+              "type": "basic.inputLabel",
+              "data": {
+                "blockColor": "fuchsia",
+                "name": "in",
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ],
+                "virtual": true
+              },
+              "position": {
+                "x": -224,
+                "y": -584
+              }
+            },
+            {
+              "id": "5d12a177-7618-4517-9067-3012f7cb42ce",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk",
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 552,
+                "y": -440
+              }
+            },
+            {
+              "id": "2f1050dd-a720-4ede-890e-612ce370ba61",
+              "type": "basic.inputLabel",
+              "data": {
+                "blockColor": "fuchsia",
+                "name": "out",
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ],
+                "virtual": true,
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 840,
+                "y": -352
+              }
+            },
+            {
+              "id": "761cc74e-6d08-4b08-acf3-70197fd7076a",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "fuchsia",
+                "name": "in",
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 536,
+                "y": -352
+              }
+            },
+            {
+              "id": "c1243e04-edbf-4cc6-9d85-f7bf35ac1dae",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk",
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 384,
+                "y": -288
+              }
+            },
+            {
+              "id": "d8572528-e0db-413c-a4ff-64d8cfee021d",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "yellow",
+                "name": "clk",
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 120,
+                "y": -232
+              }
+            },
+            {
+              "id": "ba86528a-72e9-40f7-a1e6-c2e684026c24",
+              "type": "basic.outputLabel",
+              "data": {
+                "blockColor": "fuchsia",
+                "name": "in",
+                "oldBlockColor": "fuchsia"
+              },
+              "position": {
+                "x": 120,
+                "y": -160
+              }
+            },
+            {
+              "id": "3c0a5e86-2068-4aef-8ad9-34d39461ddfe",
+              "type": "93adf61bc489d9a96a344d3f2600237e9e19c607",
+              "position": {
+                "x": 704,
+                "y": -368
+              },
+              "size": {
+                "width": 96,
+                "height": 96
+              }
+            },
+            {
+              "id": "1be0ed57-ae41-4ca5-a8c0-3d70585336a6",
+              "type": "basic.info",
+              "data": {
+                "info": "Edge detector",
+                "readonly": true
+              },
+              "position": {
+                "x": 248,
+                "y": -104
+              },
+              "size": {
+                "width": 128,
+                "height": 40
+              }
+            },
+            {
+              "id": "cabf3c3d-a707-4e06-be9a-4a66817c7a26",
+              "type": "basic.info",
+              "data": {
+                "info": "Whenever there is a change in  \nthe input, the counter is started",
+                "readonly": true
+              },
+              "position": {
+                "x": 376,
+                "y": -120
+              },
+              "size": {
+                "width": 288,
+                "height": 56
+              }
+            },
+            {
+              "id": "6dcd32b7-40bd-433d-a1e2-222636c19f2f",
+              "type": "basic.info",
+              "data": {
+                "info": "If the counter reaches it maximum  \nvalue, the input is considered stable  \nand it is captured",
+                "readonly": true
+              },
+              "position": {
+                "x": 720,
+                "y": -456
+              },
+              "size": {
+                "width": 304,
+                "height": 72
+              }
+            },
+            {
+              "id": "5ee60a84-8e65-49de-9b87-5afd9770b5a3",
+              "type": "basic.info",
+              "data": {
+                "info": "### Time calculation\n\nFor CLK=12MHZ, a 16-bit counter reaches its  \nmaximum every 2 ** 16 * 1/F = 5.5ms aprox  \nIF more time is needed for debouncing,  \nuse a counter with more bits (17, 18...)",
+                "readonly": true
+              },
+              "position": {
+                "x": 432,
+                "y": -640
+              },
+              "size": {
+                "width": 360,
+                "height": 120
+              }
+            },
+            {
+              "id": "f998abd9-dfc8-42d4-8816-c89f07a61e6f",
+              "type": "basic.info",
+              "data": {
+                "info": "## Debouncer  \n\nA value is considered stable when  \nthere is no changes during 5.5ms  \naprox. When a value is stable it is  \ncaptured on the output flip-flop",
+                "readonly": true
+              },
+              "position": {
+                "x": -8,
+                "y": -648
+              },
+              "size": {
+                "width": 312,
+                "height": 128
+              }
+            },
+            {
+              "id": "ababfa12-265a-4c7c-a482-8ed44cf9171c",
+              "type": "basic.info",
+              "data": {
+                "info": "Stable output",
+                "readonly": true
+              },
+              "position": {
+                "x": 880,
+                "y": -280
+              },
+              "size": {
+                "width": 136,
+                "height": 40
+              }
+            },
+            {
+              "id": "656df089-b248-432e-b6b5-ecd4bb5cc8eb",
+              "type": "basic.info",
+              "data": {
+                "info": "Counter",
+                "readonly": true
+              },
+              "position": {
+                "x": 536,
+                "y": -232
+              },
+              "size": {
+                "width": 96,
+                "height": 40
+              }
+            },
+            {
+              "id": "97af60c6-97c3-4926-8aa7-784cf46fc642",
+              "type": "413e4acc2a97fd7f77adb67728d1ae7b4d24f155",
+              "position": {
+                "x": 520,
+                "y": -192
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "af203e4e-327b-44bb-9195-e059b3b635c8",
+              "type": "3324889d602b184a4c2012938d6c0c3749a5c7e9",
+              "position": {
+                "x": 248,
+                "y": -176
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a",
+                "port": "out"
+              },
+              "target": {
+                "block": "a0474543-ff59-4f6f-8d2e-3993d79c13de",
+                "port": "inlabel"
+              }
+            },
+            {
+              "source": {
+                "block": "d8572528-e0db-413c-a4ff-64d8cfee021d",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "af203e4e-327b-44bb-9195-e059b3b635c8",
+                "port": "2708468d-1088-4570-be63-fb0d4799a941"
+              }
+            },
+            {
+              "source": {
+                "block": "5d12a177-7618-4517-9067-3012f7cb42ce",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "3c0a5e86-2068-4aef-8ad9-34d39461ddfe",
+                "port": "3943e194-090b-4553-9df3-88bc4b17abc2"
+              }
+            },
+            {
+              "source": {
+                "block": "c1243e04-edbf-4cc6-9d85-f7bf35ac1dae",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "97af60c6-97c3-4926-8aa7-784cf46fc642",
+                "port": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6"
+              }
+            },
+            {
+              "source": {
+                "block": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530",
+                "port": "out"
+              },
+              "target": {
+                "block": "b0e427bd-ce26-43b5-9d61-685f1c1ab922",
+                "port": "inlabel"
+              }
+            },
+            {
+              "source": {
+                "block": "ba86528a-72e9-40f7-a1e6-c2e684026c24",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "af203e4e-327b-44bb-9195-e059b3b635c8",
+                "port": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff"
+              }
+            },
+            {
+              "source": {
+                "block": "3c0a5e86-2068-4aef-8ad9-34d39461ddfe",
+                "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
+              },
+              "target": {
+                "block": "2f1050dd-a720-4ede-890e-612ce370ba61",
+                "port": "inlabel"
+              }
+            },
+            {
+              "source": {
+                "block": "20d06e62-fd81-4956-b93c-ade0e616fb98",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "22ff3fa1-943b-4d1a-bd89-36e1c054d077",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "761cc74e-6d08-4b08-acf3-70197fd7076a",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "3c0a5e86-2068-4aef-8ad9-34d39461ddfe",
+                "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
+              }
+            },
+            {
+              "source": {
+                "block": "97af60c6-97c3-4926-8aa7-784cf46fc642",
+                "port": "88e0e872-0460-4ecc-bf26-8a7a5598a024"
+              },
+              "target": {
+                "block": "3c0a5e86-2068-4aef-8ad9-34d39461ddfe",
+                "port": "4e3677f4-ae08-4a6f-80a7-ec71cd0c24b7"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "af203e4e-327b-44bb-9195-e059b3b635c8",
+                "port": "1c25e08e-e664-4fab-9b30-cedc1f8a3739"
+              },
+              "target": {
+                "block": "97af60c6-97c3-4926-8aa7-784cf46fc642",
+                "port": "2a921d76-1cbd-48fe-82a9-11b0ab4dbc06"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "3324889d602b184a4c2012938d6c0c3749a5c7e9": {
+      "package": {
+        "name": "Edges-detector",
+        "version": "0.2",
+        "description": "Edges detector. It generates a 1-period pulse (tic) when either a rising edge or a falling edge is detected on the input",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22294.1%22%20height=%22185.316%22%20viewBox=%220%200%2077.813988%2049.031403%22%3E%3Cg%20stroke-linecap=%22round%22%3E%3Cpath%20d=%22M13.478%2032.941l6.026%207.975-5.054%206.03%201.749%201.556m-3.96-15.367l-3.5%207.976-7.97%201.556.583%202.528%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%221.058%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M12.773%202.492v29.942%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.969%22/%3E%3Cpath%20d=%22M1.984%2022.683l10.689%2010.453%2010.35-10.453%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%223.969%22%20stroke-linejoin=%22round%22/%3E%3Cg%20fill=%22none%22%20stroke=%22#00f%22%3E%3Cpath%20d=%22M42.248%2032.434l6.026%207.975-5.054%206.03%201.749%201.556m-3.96-15.367l-3.5%207.976-7.97%201.555.583%202.529%22%20stroke-width=%221.058%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M41.543%2032.628V2.686%22%20stroke-width=%223.969%22/%3E%3Cpath%20d=%22M30.754%2012.436L41.443%201.984l10.35%2010.452%22%20stroke-width=%223.969%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.842%200%200%20.842%20-19.408%20-26.157)%22%20stroke=%22green%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "2708468d-1088-4570-be63-fb0d4799a941",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 88,
+                "y": 152
+              }
+            },
+            {
+              "id": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": 88,
+                "y": 280
+              }
+            },
+            {
+              "id": "1c25e08e-e664-4fab-9b30-cedc1f8a3739",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 616,
+                "y": 352
+              }
+            },
+            {
+              "id": "49c0a94e-2687-4aa4-8cba-327b2942095f",
+              "type": "basic.info",
+              "data": {
+                "info": "## Edges detector\n\nIt generates a 1-period pulse (tic) when an edge (Rising or falling) is detected on the  \ninput signal",
+                "readonly": true
+              },
+              "position": {
+                "x": 104,
+                "y": -40
+              },
+              "size": {
+                "width": 648,
+                "height": 96
+              }
+            },
+            {
+              "id": "a6ea5e17-d259-4272-8d1c-87a6a7fe3235",
+              "type": "basic.info",
+              "data": {
+                "info": "Input signal",
+                "readonly": true
+              },
+              "position": {
+                "x": 96,
+                "y": 256
+              },
+              "size": {
+                "width": 136,
+                "height": 40
+              }
+            },
+            {
+              "id": "d0d6c668-3c03-42f5-9244-9a0431f11a87",
+              "type": "basic.info",
+              "data": {
+                "info": "System clock",
+                "readonly": true
+              },
+              "position": {
+                "x": 104,
+                "y": 120
+              },
+              "size": {
+                "width": 96,
+                "height": 48
+              }
+            },
+            {
+              "id": "f18011f4-eb45-4f91-9716-c1d8c99f1845",
+              "type": "basic.info",
+              "data": {
+                "info": "Current signal  \nstate",
+                "readonly": true
+              },
+              "position": {
+                "x": 160,
+                "y": 352
+              },
+              "size": {
+                "width": 168,
+                "height": 48
+              }
+            },
+            {
+              "id": "ab801839-c115-4e44-adb7-349586890b97",
+              "type": "basic.info",
+              "data": {
+                "info": "Signal state in the previous  \nclock cycle",
+                "readonly": true
+              },
+              "position": {
+                "x": 328,
+                "y": 200
+              },
+              "size": {
+                "width": 248,
+                "height": 48
+              }
+            },
+            {
+              "id": "fde5c436-d382-48e7-80b5-390c05f46b9d",
+              "type": "basic.info",
+              "data": {
+                "info": "The output is 1 if the current value is 1 and the  \nprevious 0, or if the current value is 0 and the  \nprevious 1\n",
+                "readonly": true
+              },
+              "position": {
+                "x": 504,
+                "y": 264
+              },
+              "size": {
+                "width": 400,
+                "height": 72
+              }
+            },
+            {
+              "id": "4a6c58dc-e4cb-43b8-8a52-07ef0aa616f6",
+              "type": "d1240143e1ff7afe57f0f11565da980612b2bb76",
+              "position": {
+                "x": 480,
+                "y": 352
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "5590cf27-7da8-4183-b70c-0c9fda4a6dc0",
+              "type": "basic.info",
+              "data": {
+                "info": "In any other case the output is 0",
+                "readonly": true
+              },
+              "position": {
+                "x": 520,
+                "y": 432
+              },
+              "size": {
+                "width": 296,
+                "height": 40
+              }
+            },
+            {
+              "id": "4162d5b1-1fa7-4c48-827a-c9fde7ee204f",
+              "type": "053dc2e26797e60dd454402e395eb23f388681b9",
+              "position": {
+                "x": 320,
+                "y": 264
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff",
+                "port": "out"
+              },
+              "target": {
+                "block": "4162d5b1-1fa7-4c48-827a-c9fde7ee204f",
+                "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
+              }
+            },
+            {
+              "source": {
+                "block": "2708468d-1088-4570-be63-fb0d4799a941",
+                "port": "out"
+              },
+              "target": {
+                "block": "4162d5b1-1fa7-4c48-827a-c9fde7ee204f",
+                "port": "3943e194-090b-4553-9df3-88bc4b17abc2"
+              }
+            },
+            {
+              "source": {
+                "block": "4a6c58dc-e4cb-43b8-8a52-07ef0aa616f6",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "1c25e08e-e664-4fab-9b30-cedc1f8a3739",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "4162d5b1-1fa7-4c48-827a-c9fde7ee204f",
+                "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
+              },
+              "target": {
+                "block": "4a6c58dc-e4cb-43b8-8a52-07ef0aa616f6",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff",
+                "port": "out"
+              },
+              "target": {
+                "block": "4a6c58dc-e4cb-43b8-8a52-07ef0aa616f6",
+                "port": "97b51945-d716-4b6c-9db9-970d08541249"
+              },
+              "vertices": [
+                {
+                  "x": 264,
+                  "y": 368
+                }
+              ]
             }
           ]
         }
