@@ -948,18 +948,6 @@
           }
         },
         {
-          "id": "e1928d4b-b559-46a0-a305-e58566b36630",
-          "type": "5645befdb78839c4a1fcf8b7f7f1bfdd13cd127d",
-          "position": {
-            "x": 1784,
-            "y": -520
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "420e9ce0-77cd-49af-b61c-905b5d12f2d9",
           "type": "cf68a95c104643906673742ff094fc5ced5f851e",
           "position": {
@@ -1160,8 +1148,20 @@
           }
         },
         {
-          "id": "97e9ab7a-4cc4-4b50-867c-e92a24b6ab16",
-          "type": "406ee102313338f48a4456e26af71c7e0bc08d31",
+          "id": "8bbde8aa-c1db-4df5-804a-bf2563a7da46",
+          "type": "68f4069229b120ada15cf7106fca630bde40ff7e",
+          "position": {
+            "x": 1784,
+            "y": -520
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "382d0dff-3f49-4695-b768-817b96283af8",
+          "type": "ff825608f12ba6f9eb9e82d233c92ad21f9f283e",
           "position": {
             "x": 160,
             "y": -496
@@ -1172,8 +1172,8 @@
           }
         },
         {
-          "id": "27b7628a-9650-4cbc-8f16-3438a91ea161",
-          "type": "5a4dda3a927a7f406d83ca6f5f5f690d391e9979",
+          "id": "af526dfb-14a5-4736-bdd9-07f1d82a1386",
+          "type": "22b0815cac10420090037e1fe9f20c576157e18f",
           "position": {
             "x": 448,
             "y": -504
@@ -27239,10 +27239,161 @@
         }
       }
     },
-    "406ee102313338f48a4456e26af71c7e0bc08d31": {
+    "68f4069229b120ada15cf7106fca630bde40ff7e": {
+      "package": {
+        "name": "not-wire-x01",
+        "version": "0.2",
+        "description": "Select positive or negative logic for the input (0=positive, 1=negative)",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22317.537%22%20height=%22255.621%22%20version=%221%22%3E%3Cpath%20d=%22M112.127%2098.805l133.418%2076.406-133.418%2076.41z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%22263.881%22%20cy=%22174.972%22%20rx=%2217.634%22%20ry=%2217.982%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M4%20175.592h108.187m169.632%200h31.718%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:0%25%22%20x=%22121.949%22%20y=%22187.178%22%20transform=%22scale(.9971%201.0029)%22%20font-weight=%22400%22%20font-size=%229.874%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22121.949%22%20y=%22187.178%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2240.873%22%3ENot%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M4%2062.122h309.537%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2214.865%22%20y=%2236.868%22%20transform=%22scale(.99532%201.0047)%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%2214.865%22%20y=%2236.868%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2249.675%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2216.903%22%20y=%22151.969%22%20transform=%22scale(.99532%201.0047)%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%2216.903%22%20y=%22151.969%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2249.675%22%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E",
+        "otid": 1607779171609
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
+              "type": "basic.output",
+              "data": {
+                "name": ""
+              },
+              "position": {
+                "x": 824,
+                "y": 304
+              }
+            },
+            {
+              "id": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": false
+              },
+              "position": {
+                "x": 376,
+                "y": 320
+              }
+            },
+            {
+              "id": "2cd40fd8-3a2b-46f7-a922-fedf146ed11a",
+              "type": "basic.constant",
+              "data": {
+                "name": "not",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 520,
+                "y": 160
+              }
+            },
+            {
+              "id": "160f76e9-4d8d-424e-8689-bb890101823c",
+              "type": "3ba5d0ecbd8f55582a6307158732789df06cb74c",
+              "position": {
+                "x": 520,
+                "y": 256
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "019e81db-5707-409c-b159-b4cb29813cc4",
+              "type": "basic.info",
+              "data": {
+                "info": "When k=0, it works like a wire  \n(The output is equal to the input)  \nWhen k=1, it act as a not gate\n(The output is the inverse of the input)",
+                "readonly": true
+              },
+              "position": {
+                "x": 632,
+                "y": 392
+              },
+              "size": {
+                "width": 336,
+                "height": 96
+              }
+            },
+            {
+              "id": "68880edb-df66-4540-8ee4-f3836fdb5f0e",
+              "type": "basic.info",
+              "data": {
+                "info": "### Truth table for XOR\n\n| k | input | output | function |\n|---|-------|--------|----------|\n| 0 | 0     |  0     | wire     |\n| 0 | 1     |  1     | wire     |\n| 1 | 0     |  1     | Not      |\n| 1 | 1     |  0     | Not      |",
+                "readonly": true
+              },
+              "position": {
+                "x": 728,
+                "y": 8
+              },
+              "size": {
+                "width": 296,
+                "height": 144
+              }
+            },
+            {
+              "id": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
+              "type": "d1240143e1ff7afe57f0f11565da980612b2bb76",
+              "position": {
+                "x": 672,
+                "y": 304
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "2cd40fd8-3a2b-46f7-a922-fedf146ed11a",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "160f76e9-4d8d-424e-8689-bb890101823c",
+                "port": "c0fb4784-5e8c-4f41-9f4b-6daa2e9e03a4"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "160f76e9-4d8d-424e-8689-bb890101823c",
+                "port": "5d443143-4aca-4d4f-ba40-2b88451b86d3"
+              },
+              "target": {
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
+                "port": "out"
+              },
+              "target": {
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
+                "port": "97b51945-d716-4b6c-9db9-970d08541249"
+              }
+            },
+            {
+              "source": {
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ff825608f12ba6f9eb9e82d233c92ad21f9f283e": {
       "package": {
         "name": "Button",
-        "version": "0.2",
+        "version": "0.3",
         "description": "Configurable button (pull-up on/off. Not on/off)",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20width=%22202.458%22%20height=%22255.947%22%20viewBox=%220%200%2053.566957%2067.719398%22%3E%3Cdefs%3E%3ClinearGradient%20gradientTransform=%22matrix(-.013%20-.01966%20.01932%20-.01493%20151.654%20290.082)%22%20gradientUnits=%22userSpaceOnUse%22%20y2=%222300.215%22%20x2=%226069.057%22%20y1=%222538.05%22%20x1=%225466.681%22%20id=%22b%22%20xlink:href=%22#a%22/%3E%3ClinearGradient%20id=%22a%22%3E%3Cstop%20offset=%220%22%20stop-color=%22#c3875c%22/%3E%3Cstop%20offset=%22.48%22%20stop-color=%22#eccba3%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22#fce0cb%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20transform=%22translate(138.022%20-134.888)%22%3E%3Cpath%20d=%22M-117.19%20184.278a20.69%209.094%200%200%200-13.734%202.307l-5.434.006-1.284%205.482a20.69%209.094%200%200%200-.238%201.3%2020.69%209.094%200%200%200%2020.69%209.093%2020.69%209.094%200%200%200%2020.69-9.094%2020.69%209.094%200%200%200-.029-.351h.064l-1.277-6.47-5.778.005a20.69%209.094%200%200%200-13.67-2.278z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%226.762%22%20rx=%2219.408%22%20cy=%22187.341%22%20cx=%22-117.074%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(.1018%200%200%20.10181%20-158.528%20145.536)%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-width=%222.772%22%3E%3Cellipse%20cx=%22406.087%22%20cy=%22399.216%22%20rx=%22184.221%22%20ry=%2272.858%22%20fill=%22green%22/%3E%3Cellipse%20cx=%22406.23%22%20cy=%22383.328%22%20rx=%22179.497%22%20ry=%2260.977%22%20fill=%22#0f0%22/%3E%3C/g%3E%3C/g%3E%3Cpath%20d=%22M126.16%20115.387c-1.523%201.514-2.14%203.307-2.023%205.326-.507%201.097-2.411%202.346-2.027%203.267-1.196%201.923-1.624%203.389-1.572%204.569-.544%201.24-.403%201.705-.348%202.268-2.266%203.497-4.092%208.255-5.878%2013.125-2.302%202.765-3.64%205.792-4.898%208.84-2.191%203.7-3.756%207.67-4.02%2011.394l-.265.558c2.996%203.107%204.946%201.524%207.018.747%206.637-3.112%209.504-8.52%2012.212-14.025.473-1.572%201.57-3.127%203.151-4.669%204.414-4.785%206.886-10.022%209.857-15.142.228-.428.58-1.032%201.143-1.941%201.675-1.795%203.418-4.997%205.132-7.612z%22%20fill=%22url(#b)%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22%20transform=%22translate(-90.276%20-115.233)%22/%3E%3Cpath%20d=%22M18.486%2038.911c-2.362%202.823-3.506%206.298-4.228%2010.204.518.13%201.302-.444%202.155-1.196%202.575-6.067%201.848-7.142%202.073-9.008z%22%20fill=%22#f8ecf8%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M33.79%205.666c2.093-.057%203.853.53%205.373%201.582M31.832%208.759c2.001.286%203.946.663%205.428%201.788M30.331%2013.16c1.325-.48%203.02.099%204.83%201.005M29.98%2015.593l1.79.362%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3C/svg%3E",
@@ -27383,18 +27534,6 @@
               }
             },
             {
-              "id": "3154e48a-4d34-460b-9ed8-69a8a9c83eb2",
-              "type": "5645befdb78839c4a1fcf8b7f7f1bfdd13cd127d",
-              "position": {
-                "x": 760,
-                "y": 456
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
               "id": "6ca11b45-e83b-492d-b175-8ab8f1faa08a",
               "type": "basic.info",
               "data": {
@@ -27459,11 +27598,23 @@
               }
             },
             {
-              "id": "9e145796-7166-4576-8344-00294fe32c3f",
+              "id": "b67f0d2b-aed0-4ccd-a000-b67ebf904343",
               "type": "f718a5d8b0501d5cbb96b48c918db07a415187be",
               "position": {
                 "x": 1024,
                 "y": 440
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "a2c4b4d2-7f52-4954-8d0e-03f797189671",
+              "type": "68f4069229b120ada15cf7106fca630bde40ff7e",
+              "position": {
+                "x": 760,
+                "y": 456
               },
               "size": {
                 "width": 96,
@@ -27499,7 +27650,7 @@
                 "port": "outlabel"
               },
               "target": {
-                "block": "9e145796-7166-4576-8344-00294fe32c3f",
+                "block": "b67f0d2b-aed0-4ccd-a000-b67ebf904343",
                 "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
               }
             },
@@ -27520,7 +27671,7 @@
                 "port": "7bfc506f-7a54-40a1-8d33-e78a5409b972"
               },
               "target": {
-                "block": "3154e48a-4d34-460b-9ed8-69a8a9c83eb2",
+                "block": "a2c4b4d2-7f52-4954-8d0e-03f797189671",
                 "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
               },
               "vertices": []
@@ -27531,18 +27682,18 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "3154e48a-4d34-460b-9ed8-69a8a9c83eb2",
+                "block": "a2c4b4d2-7f52-4954-8d0e-03f797189671",
                 "port": "2cd40fd8-3a2b-46f7-a922-fedf146ed11a"
               },
               "vertices": []
             },
             {
               "source": {
-                "block": "3154e48a-4d34-460b-9ed8-69a8a9c83eb2",
+                "block": "a2c4b4d2-7f52-4954-8d0e-03f797189671",
                 "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
               },
               "target": {
-                "block": "9e145796-7166-4576-8344-00294fe32c3f",
+                "block": "b67f0d2b-aed0-4ccd-a000-b67ebf904343",
                 "port": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530"
               },
               "vertices": []
@@ -27559,7 +27710,7 @@
             },
             {
               "source": {
-                "block": "9e145796-7166-4576-8344-00294fe32c3f",
+                "block": "b67f0d2b-aed0-4ccd-a000-b67ebf904343",
                 "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
               },
               "target": {
@@ -27581,10 +27732,10 @@
         }
       }
     },
-    "5a4dda3a927a7f406d83ca6f5f5f690d391e9979": {
+    "22b0815cac10420090037e1fe9f20c576157e18f": {
       "package": {
         "name": "Button-tic",
-        "version": "0.2",
+        "version": "0.4",
         "description": "Button-tic: Configurable button that emits a tic when it is pressed",
         "author": "Juan Gonzalez-Gomez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20width=%22293.977%22%20height=%22257.958%22%20viewBox=%220%200%2077.781366%2068.251365%22%3E%3Cdefs%3E%3ClinearGradient%20gradientTransform=%22matrix(-.013%20-.01966%20.01932%20-.01493%20151.654%20290.082)%22%20gradientUnits=%22userSpaceOnUse%22%20y2=%222300.215%22%20x2=%226069.057%22%20y1=%222538.05%22%20x1=%225466.681%22%20id=%22b%22%20xlink:href=%22#a%22/%3E%3ClinearGradient%20id=%22a%22%3E%3Cstop%20offset=%220%22%20stop-color=%22#c3875c%22/%3E%3Cstop%20offset=%22.48%22%20stop-color=%22#eccba3%22/%3E%3Cstop%20offset=%221%22%20stop-color=%22#fce0cb%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg%20transform=%22translate(138.022%20-134.888)%22%3E%3Cpath%20d=%22M-117.19%20184.278a20.69%209.094%200%200%200-13.734%202.307l-5.434.006-1.284%205.482a20.69%209.094%200%200%200-.238%201.3%2020.69%209.094%200%200%200%2020.69%209.093%2020.69%209.094%200%200%200%2020.69-9.094%2020.69%209.094%200%200%200-.029-.351h.064l-1.277-6.47-5.778.005a20.69%209.094%200%200%200-13.67-2.278z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%226.762%22%20rx=%2219.408%22%20cy=%22187.341%22%20cx=%22-117.074%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(.1018%200%200%20.10181%20-158.528%20145.536)%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%20stroke-width=%222.772%22%3E%3Cellipse%20cx=%22406.087%22%20cy=%22399.216%22%20rx=%22184.221%22%20ry=%2272.858%22%20fill=%22green%22/%3E%3Cellipse%20cx=%22406.23%22%20cy=%22383.328%22%20rx=%22179.497%22%20ry=%2260.977%22%20fill=%22#0f0%22/%3E%3C/g%3E%3C/g%3E%3Cpath%20d=%22M126.16%20115.387c-1.523%201.514-2.14%203.307-2.023%205.326-.507%201.097-2.411%202.346-2.027%203.267-1.196%201.923-1.624%203.389-1.572%204.569-.544%201.24-.403%201.705-.348%202.268-2.266%203.497-4.092%208.255-5.878%2013.125-2.302%202.765-3.64%205.792-4.898%208.84-2.191%203.7-3.756%207.67-4.02%2011.394l-.265.558c2.996%203.107%204.946%201.524%207.018.747%206.637-3.112%209.504-8.52%2012.212-14.025.473-1.572%201.57-3.127%203.151-4.669%204.414-4.785%206.886-10.022%209.857-15.142.228-.428.58-1.032%201.143-1.941%201.675-1.795%203.418-4.997%205.132-7.612z%22%20fill=%22url(#b)%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22%20transform=%22translate(-90.276%20-115.233)%22/%3E%3Cpath%20d=%22M18.486%2038.911c-2.362%202.823-3.506%206.298-4.228%2010.204.518.13%201.302-.444%202.155-1.196%202.575-6.067%201.848-7.142%202.073-9.008z%22%20fill=%22#f8ecf8%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M33.79%205.666c2.093-.057%203.853.53%205.373%201.582M31.832%208.759c2.001.286%203.946.663%205.428%201.788M30.331%2013.16c1.325-.48%203.02.099%204.83%201.005M29.98%2015.593l1.79.362%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cg%20transform=%22matrix(1.2877%200%200%201.2877%20-70.904%20-45.941)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E"
@@ -27807,11 +27958,11 @@
               }
             },
             {
-              "id": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
-              "type": "406ee102313338f48a4456e26af71c7e0bc08d31",
+              "id": "55de191a-0bf0-4e2c-b2b9-fde52111025f",
+              "type": "31e84ed10b0b8e1c6ce6cf1f88c55d2e322116fb",
               "position": {
-                "x": 496,
-                "y": 184
+                "x": 888,
+                "y": 168
               },
               "size": {
                 "width": 96,
@@ -27819,11 +27970,11 @@
               }
             },
             {
-              "id": "b2605e2e-23e6-4a80-8360-dbfc537c0377",
-              "type": "ad161d6fcd88cfe3d4a6b0702abfcf6cdf5a1c65",
+              "id": "37462c9a-49f8-475d-90bc-cc026facf184",
+              "type": "ff825608f12ba6f9eb9e82d233c92ad21f9f283e",
               "position": {
-                "x": 888,
-                "y": 168
+                "x": 496,
+                "y": 184
               },
               "size": {
                 "width": 96,
@@ -27849,7 +28000,7 @@
                 "port": "outlabel"
               },
               "target": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "59f7bee9-9832-421d-aa0a-de177f3f121d"
               },
               "vertices": [
@@ -27865,7 +28016,7 @@
                 "port": "outlabel"
               },
               "target": {
-                "block": "b2605e2e-23e6-4a80-8360-dbfc537c0377",
+                "block": "55de191a-0bf0-4e2c-b2b9-fde52111025f",
                 "port": "2708468d-1088-4570-be63-fb0d4799a941"
               }
             },
@@ -27875,13 +28026,13 @@
                 "port": "out"
               },
               "target": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
               }
             },
             {
               "source": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
               },
               "target": {
@@ -27891,18 +28042,18 @@
             },
             {
               "source": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
               },
               "target": {
-                "block": "b2605e2e-23e6-4a80-8360-dbfc537c0377",
+                "block": "55de191a-0bf0-4e2c-b2b9-fde52111025f",
                 "port": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff"
               },
               "vertices": []
             },
             {
               "source": {
-                "block": "b2605e2e-23e6-4a80-8360-dbfc537c0377",
+                "block": "55de191a-0bf0-4e2c-b2b9-fde52111025f",
                 "port": "1c25e08e-e664-4fab-9b30-cedc1f8a3739"
               },
               "target": {
@@ -27916,7 +28067,7 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "07e7cb88-d87c-4aa3-9938-fc226e3f4815"
               }
             },
@@ -27926,7 +28077,7 @@
                 "port": "constant-out"
               },
               "target": {
-                "block": "67725216-f42a-4b62-83f8-2a4f3b1f75fb",
+                "block": "37462c9a-49f8-475d-90bc-cc026facf184",
                 "port": "6aacd3c5-a3e9-4a17-afb8-2b1271b3054c"
               }
             }
@@ -27934,10 +28085,10 @@
         }
       }
     },
-    "ad161d6fcd88cfe3d4a6b0702abfcf6cdf5a1c65": {
+    "31e84ed10b0b8e1c6ce6cf1f88c55d2e322116fb": {
       "package": {
         "name": "Rising-edge-detector",
-        "version": "0.2",
+        "version": "0.3",
         "description": "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge is detected on the input",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22185.363%22%20height=%22183.398%22%20viewBox=%220%200%2049.043981%2048.524089%22%3E%3Cg%20stroke-linecap=%22round%22%3E%3Cg%20fill=%22none%22%20stroke=%22#00f%22%3E%3Cpath%20d=%22M13.478%2032.434l6.026%207.975-5.054%206.03%201.749%201.556m-3.96-15.367l-3.5%207.976-7.97%201.555.583%202.529%22%20stroke-width=%221.058%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M12.773%2032.628V2.686%22%20stroke-width=%223.969%22/%3E%3Cpath%20d=%22M1.984%2012.436L12.673%201.984l10.35%2010.452%22%20stroke-width=%223.969%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3Cg%20transform=%22matrix(.842%200%200%20.842%20-48.178%20-26.157)%22%20stroke=%22green%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"
@@ -27978,30 +28129,6 @@
               "position": {
                 "x": 840,
                 "y": 400
-              }
-            },
-            {
-              "id": "dd46675b-cc63-4048-8a37-c684913c3514",
-              "type": "35f267d0df6ffcb7fc33753bc9df9cf083642cca",
-              "position": {
-                "x": 552,
-                "y": 264
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
-              "id": "5b898222-8c0c-4e10-8a92-2b8734c87693",
-              "type": "b2090f68ef94fd3c5c0eaea93eb6ba7e80aff0b6",
-              "position": {
-                "x": 696,
-                "y": 400
-              },
-              "size": {
-                "width": 96,
-                "height": 64
               }
             },
             {
@@ -28127,6 +28254,30 @@
                 "width": 96,
                 "height": 64
               }
+            },
+            {
+              "id": "70cfa680-3def-482c-b194-054c1f522357",
+              "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
+              "position": {
+                "x": 552,
+                "y": 264
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "49c498a6-eb89-4e72-889d-26e39cea5ad0",
+              "type": "ba518ee261a2be13a9739cd3a01cdcebe0ef63c0",
+              "position": {
+                "x": 696,
+                "y": 400
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
             }
           ],
           "wires": [
@@ -28156,17 +28307,17 @@
                 "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
               },
               "target": {
-                "block": "dd46675b-cc63-4048-8a37-c684913c3514",
+                "block": "70cfa680-3def-482c-b194-054c1f522357",
                 "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
               }
             },
             {
               "source": {
-                "block": "dd46675b-cc63-4048-8a37-c684913c3514",
+                "block": "70cfa680-3def-482c-b194-054c1f522357",
                 "port": "664caf9e-5f40-4df4-800a-b626af702e62"
               },
               "target": {
-                "block": "5b898222-8c0c-4e10-8a92-2b8734c87693",
+                "block": "49c498a6-eb89-4e72-889d-26e39cea5ad0",
                 "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
               }
             },
@@ -28176,13 +28327,13 @@
                 "port": "out"
               },
               "target": {
-                "block": "5b898222-8c0c-4e10-8a92-2b8734c87693",
+                "block": "49c498a6-eb89-4e72-889d-26e39cea5ad0",
                 "port": "97b51945-d716-4b6c-9db9-970d08541249"
               }
             },
             {
               "source": {
-                "block": "5b898222-8c0c-4e10-8a92-2b8734c87693",
+                "block": "49c498a6-eb89-4e72-889d-26e39cea5ad0",
                 "port": "664caf9e-5f40-4df4-800a-b626af702e62"
               },
               "target": {

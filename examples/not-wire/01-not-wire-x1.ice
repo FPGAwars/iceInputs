@@ -172,7 +172,7 @@
           },
           "position": {
             "x": 80,
-            "y": -336
+            "y": -376
           },
           "size": {
             "width": 96,
@@ -801,7 +801,7 @@
     "5645befdb78839c4a1fcf8b7f7f1bfdd13cd127d": {
       "package": {
         "name": "not-wire-x01",
-        "version": "0.1",
+        "version": "0.2",
         "description": "Select positive or negative logic for the input (0=positive, 1=negative)",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22317.537%22%20height=%22255.621%22%20version=%221%22%3E%3Cpath%20d=%22M112.127%2098.805l133.418%2076.406-133.418%2076.41z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20cx=%22263.881%22%20cy=%22174.972%22%20rx=%2217.634%22%20ry=%2217.982%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M4%20175.592h108.187m169.632%200h31.718%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:0%25%22%20x=%22121.949%22%20y=%22187.178%22%20transform=%22scale(.9971%201.0029)%22%20font-weight=%22400%22%20font-size=%229.874%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%22121.949%22%20y=%22187.178%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2240.873%22%3ENot%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M4%2062.122h309.537%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2214.865%22%20y=%2236.868%22%20transform=%22scale(.99532%201.0047)%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%2214.865%22%20y=%2236.868%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2249.675%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:0%25%22%20x=%2216.903%22%20y=%22151.969%22%20transform=%22scale(.99532%201.0047)%22%20font-weight=%22400%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%3E%3Ctspan%20x=%2216.903%22%20y=%22151.969%22%20style=%22line-height:1.25;-inkscape-font-specification:'sans-serif%20Bold'%22%20font-weight=%22700%22%20font-size=%2249.675%22%3E1%3C/tspan%3E%3C/text%3E%3C/svg%3E",
@@ -859,18 +859,6 @@
               }
             },
             {
-              "id": "5237d3a4-e717-4eb1-a261-65f0c313b67c",
-              "type": "b70dd9c39fe3c51faff4233d2dde462fc53c7e38",
-              "position": {
-                "x": 672,
-                "y": 304
-              },
-              "size": {
-                "width": 96,
-                "height": 64
-              }
-            },
-            {
               "id": "019e81db-5707-409c-b159-b4cb29813cc4",
               "type": "basic.info",
               "data": {
@@ -901,6 +889,18 @@
                 "width": 296,
                 "height": 144
               }
+            },
+            {
+              "id": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
+              "type": "d1240143e1ff7afe57f0f11565da980612b2bb76",
+              "position": {
+                "x": 672,
+                "y": 304
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
             }
           ],
           "wires": [
@@ -921,7 +921,7 @@
                 "port": "5d443143-4aca-4d4f-ba40-2b88451b86d3"
               },
               "target": {
-                "block": "5237d3a4-e717-4eb1-a261-65f0c313b67c",
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
                 "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
               }
             },
@@ -931,13 +931,13 @@
                 "port": "out"
               },
               "target": {
-                "block": "5237d3a4-e717-4eb1-a261-65f0c313b67c",
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
                 "port": "97b51945-d716-4b6c-9db9-970d08541249"
               }
             },
             {
               "source": {
-                "block": "5237d3a4-e717-4eb1-a261-65f0c313b67c",
+                "block": "100882d4-91fe-428f-9ce9-9e02ed2b2a9d",
                 "port": "664caf9e-5f40-4df4-800a-b626af702e62"
               },
               "target": {
@@ -1038,11 +1038,11 @@
         }
       }
     },
-    "b70dd9c39fe3c51faff4233d2dde462fc53c7e38": {
+    "d1240143e1ff7afe57f0f11565da980612b2bb76": {
       "package": {
-        "name": "XOR",
-        "version": "1.0.1",
-        "description": "Puerta XOR",
+        "name": "XOR2",
+        "version": "1.0.2",
+        "description": "XOR gate: two bits input xor gate",
         "author": "Jesús Arroyo, Juan González",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20height=%22193.047%22%20width=%22383.697%22%20version=%221%22%3E%3Cpath%20d=%22M175.56%20189.047H84.527s30.345-42.538%2031.086-94.03c.743-51.49-31.821-90.294-31.821-90.294l92.317-.394c46.445%201.948%20103.899%2053.44%20123.047%2093.678-32.601%2067.503-92.158%2089.79-123.596%2091.04z%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M4.057%2047.62h99.605M4.883%20145.497h100.981M298.57%2099.219h81.07%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22/%3E%3Ctext%20x=%22129.011%22%20y=%22115.285%22%20font-size=%2258.24%22%20font-weight=%22400%22%20style=%22line-height:125%25%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%20fill=%22#00f%22%20transform=%22translate(0%20.329)%22%3E%3Ctspan%20x=%22129.011%22%20y=%22115.285%22%20font-weight=%22700%22%3EXOR%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M54.321%20188.368s30.345-42.538%2031.086-94.03c.742-51.49-31.821-90.294-31.821-90.294%22%20fill=%22none%22%20stroke=%22#000%22%20stroke-width=%228%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
       },
@@ -1056,8 +1056,8 @@
                 "name": ""
               },
               "position": {
-                "x": 64,
-                "y": 88
+                "x": 120,
+                "y": 48
               }
             },
             {
@@ -1067,8 +1067,8 @@
                 "name": ""
               },
               "position": {
-                "x": 784,
-                "y": 152
+                "x": 560,
+                "y": 72
               }
             },
             {
@@ -1078,15 +1078,15 @@
                 "name": ""
               },
               "position": {
-                "x": 64,
-                "y": 224
+                "x": 120,
+                "y": 104
               }
             },
             {
               "id": "00925b04-5004-4307-a737-fa4e97c8b6ab",
               "type": "basic.code",
               "data": {
-                "code": "//-- Puerta XOR\n\n//-- module xor (input wire a, input wire b,\n//--             output wire c);\n\nassign c = a ^ b;\n\n//-- endmodule",
+                "code": "//-- XOR gate\n//-- Verilog implementation\n\nassign c = a ^ b;\n",
                 "params": [],
                 "ports": {
                   "in": [
@@ -1109,8 +1109,8 @@
                 "y": 48
               },
               "size": {
-                "width": 464,
-                "height": 272
+                "width": 272,
+                "height": 112
               }
             }
           ],
