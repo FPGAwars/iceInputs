@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "Button_direct_tic_x01",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Direct connection of a button with tic output. The button should not have any external circuit",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20width=%22405.937%22%20height=%22257.958%22%20viewBox=%220%200%20107.40423%2068.251365%22%20id=%22svg8%22%3E%3Cdefs%20id=%22defs2%22%3E%3ClinearGradient%20id=%22linearGradient4142%22%3E%3Cstop%20id=%22stop4144%22%20offset=%220%22%20stop-color=%22#c3875c%22/%3E%3Cstop%20offset=%22.48%22%20id=%22stop4150%22%20stop-color=%22#eccba3%22/%3E%3Cstop%20id=%22stop4146%22%20offset=%221%22%20stop-color=%22#fce0cb%22/%3E%3C/linearGradient%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-7%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-5%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-5%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-6%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-2%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-9%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-1%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-7%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972-9%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-31%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-9%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-4%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-7%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3-8%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6-4%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5-5%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3-0%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-7-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-5-6%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-3-1%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-5-0%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-6-6%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-2-3%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-9-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-1-0%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-2-6%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-7-1%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM-5%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972-6%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-91%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-70%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3-93%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6-6%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5-0%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3-6%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-7-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-5-61%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-3-8%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-5-7%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-6-9%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-2-2%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-9-0%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-1-2%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-2-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-7-7%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22TriangleOutM-2-5%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path972-9-9%22%20d=%22M2.308%200l-3.46%202v-4z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-31-2%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-9-2%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-4-8%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-7-9%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow2Mend-3-8-7%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path854-6-4-3%22%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20orient=%22auto%22%20id=%22Arrow1Mend-5-5-6%22%20overflow=%22visible%22%3E%3Cpath%20id=%22path836-3-0-1%22%20d=%22M-4%200l-2%202%207-2-7-2z%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22TriangleOutM-7-3-2%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M2.308%200l-3.46%202v-4z%22%20id=%22path972-5-6-9%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-3-1-3%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-5-0-1%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-6-6-9%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-2-3-4%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow2Mend-3-9-2-7%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-5.231-2.42L1.324-.01-5.23%202.401c1.047-1.423%201.041-3.37%200-4.821z%22%20id=%22path854-6-1-0-8%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.375%22%20stroke-linejoin=%22round%22/%3E%3C/marker%3E%3Cmarker%20id=%22Arrow1Mend-5-2-6-4%22%20orient=%22auto%22%20overflow=%22visible%22%3E%3Cpath%20d=%22M-4%200l-2%202%207-2-7-2z%22%20id=%22path836-3-7-1-5%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.4pt%22/%3E%3C/marker%3E%3ClinearGradient%20xlink:href=%22#linearGradient4142%22%20id=%22linearGradient1381%22%20gradientUnits=%22userSpaceOnUse%22%20gradientTransform=%22matrix(-.013%20-.01966%20.01932%20-.01493%20151.654%20290.082)%22%20x1=%225466.681%22%20y1=%222538.05%22%20x2=%226069.057%22%20y2=%222300.215%22/%3E%3C/defs%3E%3Cg%20id=%22layer1%22%20transform=%22translate(-67.324%20-115.233)%22%3E%3Cpath%20class=%22st0%22%20d=%22M93.26%20127.815v11.889h-5.208v-11.89h5.209m.964-1.007h-7.138v13.904h7.138z%22%20id=%22path1012%22%20stroke-width=%22.986%22/%3E%3Cpath%20d=%22M88.962%20132.707v10.94h-11.33v-3.475c0-.257-.123-.514-.37-.514l-2.833-1.545%206.9-3.732a.713.713%200%200%200%20.37-.644c0-.257-.124-.515-.37-.515l-7.024-3.475%202.958-2.06c.123-.128.246-.257.246-.514v-3.475h3.82l-4.313-7.851-4.312%207.85H76.4v3.219l-3.573%202.574a1.006%201.006%200%200%200-.247.643c0%20.258.124.386.37.515l6.9%203.347-6.9%203.732c-.246.129-.37.386-.37.515s.124.515.37.515l3.573%201.93v3.09h-9.2v1.544h21.64v10.94l18.96-10.94h9.161l.014-1.407h-9.162zM77.016%20117.65l2.711%205.02h-5.545zM90.564%20153.3v-17.762l15.156%208.88z%22%20id=%22path1014%22%20stroke-width=%221.259%22/%3E%3Cpath%20d=%22M89.945%20134.249v19.948l17.082-9.711z%22%20id=%22path1016%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.338%22/%3E%3Cg%20id=%22layer1-6%22%20transform=%22translate(6.67)%22%3E%3Cg%20id=%22g904-1%22%20transform=%22translate(228.298%20-19.655)%22%3E%3Cpath%20id=%22path4192-6-0%22%20d=%22M-117.19%20184.278a20.69%209.094%200%200%200-13.734%202.307l-5.434.006-1.284%205.482a20.69%209.094%200%200%200-.238%201.3%2020.69%209.094%200%200%200%2020.69%209.093%2020.69%209.094%200%200%200%2020.69-9.094%2020.69%209.094%200%200%200-.029-.351h.064l-1.277-6.47-5.778.005a20.69%209.094%200%200%200-13.67-2.278z%22%20fill=%22#333%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cellipse%20ry=%226.762%22%20rx=%2219.408%22%20cy=%22187.341%22%20cx=%22-117.074%22%20id=%22path4192-63%22%20fill=%22#666%22%20stroke=%22#000%22%20stroke-width=%22.282%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Cg%20transform=%22matrix(.1018%200%200%20.10181%20-158.56%20146.08)%22%20id=%22layer2-2-2%22%20stroke-width=%222.772%22%3E%3Cg%20transform=%22translate(.312%20-5.333)%22%20id=%22g4187-0%22%20stroke=%22#000%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cellipse%20id=%22path4170-3-7-6%22%20cx=%22406.087%22%20cy=%22399.216%22%20rx=%22184.221%22%20ry=%2272.858%22%20fill=%22green%22/%3E%3Cellipse%20id=%22path4170-0-1%22%20cx=%22406.23%22%20cy=%22383.328%22%20rx=%22179.497%22%20ry=%2260.977%22%20fill=%22#0f0%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%20id=%22g1020-5%22%3E%3Cg%20id=%22g981-5%22%3E%3Cpath%20id=%22path3338-4%22%20d=%22M126.16%20115.387c-1.523%201.514-2.14%203.307-2.023%205.326-.507%201.097-2.411%202.346-2.027%203.267-1.196%201.923-1.624%203.389-1.572%204.569-.544%201.24-.403%201.705-.348%202.268-2.266%203.497-4.092%208.255-5.878%2013.125-2.302%202.765-3.64%205.792-4.898%208.84-2.191%203.7-3.756%207.67-4.02%2011.394l-.265.558c2.996%203.107%204.946%201.524%207.018.747%206.637-3.112%209.504-8.52%2012.212-14.025.473-1.572%201.57-3.127%203.151-4.669%204.414-4.785%206.886-10.022%209.857-15.142.228-.428.58-1.032%201.143-1.941%201.675-1.795%203.418-4.997%205.132-7.612z%22%20fill=%22url(#linearGradient1381)%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3C/g%3E%3Cpath%20d=%22M108.762%20154.144c-2.362%202.823-3.506%206.298-4.228%2010.204.518.129%201.302-.445%202.155-1.196%202.575-6.067%201.848-7.142%202.073-9.008z%22%20id=%22path3340-7%22%20fill=%22#f8ecf8%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M124.066%20120.899c2.093-.057%203.853.53%205.373%201.582%22%20id=%22path4207-6%22%20fill=%22none%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M122.108%20123.992c2.001.286%203.946.663%205.428%201.788%22%20id=%22path4209-5%22%20fill=%22none%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M120.607%20128.393c1.325-.48%203.02.099%204.83%201.005%22%20id=%22path4211-6%22%20fill=%22none%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3Cpath%20d=%22M120.255%20130.826l1.79.362%22%20id=%22path4213-9%22%20fill=%22none%22%20fill-rule=%22evenodd%22%20stroke=%22#000%22%20stroke-width=%22.265%22/%3E%3C/g%3E%3Cg%20id=%22g992-7%22%20transform=%22matrix(1.2877%200%200%201.2877%2019.372%2069.292)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20r=%2214.559%22%20cy=%2273.815%22%20cx=%22100.602%22%20id=%22path992-2-6%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20id=%22path1773-2-3-1-8-9-5%22%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cstyle%20id=%22style1010%22%3E.st0%7Bdisplay:none%7D.st1%7Bfill:none;stroke:#000;stroke-width:.75;stroke-linejoin:round;stroke-miterlimit:10%7D.st2%7Bfill:#010002%7D%3C/style%3E%3C/svg%3E",
@@ -43,8 +43,21 @@
             "name": "s"
           },
           "position": {
-            "x": 832,
-            "y": 192
+            "x": 976,
+            "y": 368
+          }
+        },
+        {
+          "id": "59c43c3c-0f74-47ee-baab-9912210a6060",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 648,
+            "y": 408
           }
         },
         {
@@ -56,8 +69,8 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": 496,
-            "y": 224
+            "x": 480,
+            "y": 424
           }
         },
         {
@@ -68,8 +81,21 @@
             "clock": false
           },
           "position": {
-            "x": 440,
-            "y": 296
+            "x": 176,
+            "y": 512
+          }
+        },
+        {
+          "id": "9a13a2d9-fc9f-4691-840f-cd6591aef03a",
+          "type": "basic.outputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "oldBlockColor": "fuchsia"
+          },
+          "position": {
+            "x": 976,
+            "y": 536
           }
         },
         {
@@ -79,8 +105,8 @@
             "name": "Press"
           },
           "position": {
-            "x": 848,
-            "y": 296
+            "x": 1256,
+            "y": 608
           }
         },
         {
@@ -107,6 +133,66 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "b12815cb-1f5a-4b97-ab0a-5f8a190a28af",
+          "type": "6c3affc36ce9207db9e9addcade0eb18994ddf4a",
+          "position": {
+            "x": 320,
+            "y": 512
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "4762cf0e-8bed-4506-ad25-9f4f85e3e4f9",
+          "type": "0705a6a13435ea79daf5779a2a0f076bd71f0a14",
+          "position": {
+            "x": 624,
+            "y": 496
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "7db00c53-f919-4314-a40f-33c636334361",
+          "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
+          "position": {
+            "x": 464,
+            "y": 512
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "0fc62cf5-017a-4252-a415-7745dc7e638a",
+          "type": "dd36dc1269be1a36894b4c4dfd8b2bd2c9026fe6",
+          "position": {
+            "x": 784,
+            "y": 496
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "0aea43b0-018d-4709-94bc-34870ba7cd02",
+          "type": "ae13be3e513e7cb48d47d3fb3aa840dd85dc1f5e",
+          "position": {
+            "x": 1104,
+            "y": 592
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -127,8 +213,28 @@
             "port": "outlabel"
           },
           "target": {
-            "block": "e06a6187-1aec-4efc-b8f6-7fe20da3a597",
-            "port": "653b2ced-3f13-4b1d-a2b6-c330c671067a"
+            "block": "4762cf0e-8bed-4506-ad25-9f4f85e3e4f9",
+            "port": "39873fa0-c3f5-47ef-b54b-b6b344416b25"
+          }
+        },
+        {
+          "source": {
+            "block": "59c43c3c-0f74-47ee-baab-9912210a6060",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "0fc62cf5-017a-4252-a415-7745dc7e638a",
+            "port": "4bf41c17-a2da-4140-95f7-2a80d51b1e1a"
+          }
+        },
+        {
+          "source": {
+            "block": "9a13a2d9-fc9f-4691-840f-cd6591aef03a",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "0aea43b0-018d-4709-94bc-34870ba7cd02",
+            "port": "2708468d-1088-4570-be63-fb0d4799a941"
           }
         },
         {
@@ -153,31 +259,80 @@
         },
         {
           "source": {
+            "block": "7db00c53-f919-4314-a40f-33c636334361",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "4762cf0e-8bed-4506-ad25-9f4f85e3e4f9",
+            "port": "f25e9a9e-cd4c-4025-8745-0691a99a3fb8"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "b12815cb-1f5a-4b97-ab0a-5f8a190a28af",
+            "port": "a139fa0d-9b45-4480-a251-f4a66b49aa23"
+          },
+          "target": {
+            "block": "7db00c53-f919-4314-a40f-33c636334361",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "4762cf0e-8bed-4506-ad25-9f4f85e3e4f9",
+            "port": "7bfc506f-7a54-40a1-8d33-e78a5409b972"
+          },
+          "target": {
+            "block": "0fc62cf5-017a-4252-a415-7745dc7e638a",
+            "port": "c9e1af2a-6f09-4cf6-a5b3-fdf7ec2c6530"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "0fc62cf5-017a-4252-a415-7745dc7e638a",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
+          },
+          "target": {
+            "block": "0aea43b0-018d-4709-94bc-34870ba7cd02",
+            "port": "9ca5353b-32fd-4f1f-af0b-5339bd50b1ff"
+          },
+          "vertices": [
+            {
+              "x": 912,
+              "y": 608
+            }
+          ]
+        },
+        {
+          "source": {
             "block": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
             "port": "out"
           },
           "target": {
-            "block": "e06a6187-1aec-4efc-b8f6-7fe20da3a597",
-            "port": "21bc142d-a93a-430d-b37a-326435def9f9"
+            "block": "b12815cb-1f5a-4b97-ab0a-5f8a190a28af",
+            "port": "bb4a1ca9-1b30-471e-92ca-ca7ff2fc1150"
           }
         },
         {
           "source": {
-            "block": "e06a6187-1aec-4efc-b8f6-7fe20da3a597",
-            "port": "b58132b2-2e39-4a85-ab5b-63bded91cecc"
+            "block": "0aea43b0-018d-4709-94bc-34870ba7cd02",
+            "port": "1c25e08e-e664-4fab-9b30-cedc1f8a3739"
           },
           "target": {
-            "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
+            "block": "11fef9d6-3883-40ee-b8ab-ad8aad43b867",
             "port": "in"
           }
         },
         {
           "source": {
-            "block": "e06a6187-1aec-4efc-b8f6-7fe20da3a597",
-            "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
+            "block": "0fc62cf5-017a-4252-a415-7745dc7e638a",
+            "port": "22ff3fa1-943b-4d1a-bd89-36e1c054d077"
           },
           "target": {
-            "block": "11fef9d6-3883-40ee-b8ab-ad8aad43b867",
+            "block": "4e8afe74-8f38-4873-97ee-f7585d99a4aa",
             "port": "in"
           }
         }
